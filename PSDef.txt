@@ -1,5 +1,4 @@
 type	http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1/PublicService
-ID	@id
 Description	Kirjeldus
 Homepage	Koduleht
 Language	Keel

@@ -69,24 +69,25 @@
         "@context": {
             "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1/PublicService"
         },
-        "@id": {
-            "@type": "CPSV:ID",
-            "@value": "Maintaining a registry of information systems of Estonia"
-        },
+        "@id": "http://meta.ria.ee/RIHA/teenused/RIHA",
         "Keel": {
             "@type": "CPSV:Language",
-            "@value": "RIHA"
+            "@value": "https://riha.eesti.ee/riha/main/kla/keelte_klassifikaator_2013/est"
         },
         "Kirjeldus": {
             "@type": "CPSV:Description",
-            "@value": "http://meta.ria.ee/RIHA/teenused/RIHA"
+            "@value": "Maintaining a registry of information systems of Estonia"
         },
         "Koduleht": {
             "@type": "CPSV:Homepage",
-            "@value": "https://riha.eesti.ee/riha/main/kla/keelte_klassifikaator_2013/est"
+            "@value": "http://meta.ria.ee/RIHA/teenused/RIHA"
         },
-        "Tüüp": {
-            "@type": "CPSV:Type",
+        "Nimi": {
+            "@type": "CPSV:Name",
+            "@value": "RIHA"
+        },
+        "Vajab": {
+            "@type": "CPSV:Requires",
             "@value": "http://www.mkm.ee/seadusloome"
         }
     },
@@ -94,42 +95,44 @@
         "@context": {
             "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1/PublicService"
         },
-        "@id": {
-            "@type": "CPSV:ID",
-            "@value": "Creating legislation supporting public policies"
-        },
+        "@id": "http://www.mkm.ee/seadusloome",
         "Keel": {
             "@type": "CPSV:Language",
-            "@value": "Seadusloome"
+            "@value": "https://riha.eesti.ee/riha/main/kla/keelte_klassifikaator_2013/est"
         },
         "Kirjeldus": {
             "@type": "CPSV:Description",
-            "@value": "http://www.mkm.ee/"
+            "@value": "Creating legislation supporting public policies"
         },
         "Koduleht": {
             "@type": "CPSV:Homepage",
-            "@value": "https://riha.eesti.ee/riha/main/kla/keelte_klassifikaator_2013/est"
+            "@value": "http://www.mkm.ee/"
+        },
+        "Nimi": {
+            "@type": "CPSV:Name",
+            "@value": "Seadusloome"
         }
     },
     {
         "@context": {
             "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1/PublicService"
         },
-        "@id": {
-            "@type": "CPSV:ID",
-            "@value": "Maintaining public roads"
-        },
+        "@id": "http://www.mkm.ee/teehooldus",
         "Keel": {
             "@type": "CPSV:Language",
-            "@value": "Teehooldus"
+            "@value": "https://riha.eesti.ee/riha/main/kla/keelte_klassifikaator_2013/est"
         },
         "Kirjeldus": {
             "@type": "CPSV:Description",
-            "@value": "http://www.mnt.ee/"
+            "@value": "Maintaining public roads"
         },
         "Koduleht": {
             "@type": "CPSV:Homepage",
-            "@value": "https://riha.eesti.ee/riha/main/kla/keelte_klassifikaator_2013/est"
+            "@value": "http://www.mnt.ee/"
+        },
+        "Nimi": {
+            "@type": "CPSV:Name",
+            "@value": "Teehooldus"
         }
     }
 ]
