@@ -1,4 +1,4 @@
-# ee_service
-Preliminary repository for service metadata collection pilot in Estonia
+This is a preliminary repository for various files related to the metadata collection pilot project in Estonia.
 
-Not intended to be useful outside of the pilot
+The contents of this repo is not intended to be in any way useful outside the context of the pilot
+
