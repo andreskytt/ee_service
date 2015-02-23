@@ -1,0 +1,28 @@
+<html>
+	<head>
+	<script src="https://sdk.amazonaws.com/js/aws-sdk-2.1.13.min.js"></script>
+	<script>
+		AWS.config.update({accessKeyId: 'AKIAIUBE5XFAZE3FSZOA', secretAccessKey: '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'});
+		new AWS.S3().listObjects({Bucket: 'eeservice'}, function(error, data) {
+		  if (error) {
+		    console.log(error); // an error occurred
+		  } else {
+		    //j = JSON.parse(data);
+		    for (c in data.Contents){
+			    new AWS.S3().getObject({Bucket: 'eeservice', ResponseContentType: 'application/json', Key:data.Contents[c].Key}, function(error, data){
+				    console.log(data.Body.toString())
+			    }
+			    )
+			    //console.log(data.Contents[c].Key)
+			}
+		    //console.log(data); // request succeeded
+		  }
+		});
+	</script>
+	</head>
+	<body>
+		Hello world!
+		<div id="content"/>
+	</body>
+</html>
+
