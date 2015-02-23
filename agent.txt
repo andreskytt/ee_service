@@ -1,0 +1,4 @@
+Identifier	AlternativeName	CompanyActivity	CompanyStatus	CompanyType	LegalIdentifier	LegalName
+http://register.fin.ee/RKOAR/70006317	State Information Agency			https://riha.eesti.ee/riha/main/kla/esa_institutsionaalsete_sektorite_s_eesti_jaoks_kohandatud_klassifikaator_2010/S.13111	http://register.fin.ee/RKOAR/70006317	Riigi Infosüsteemi Amet
+http://register.fin.ee/RKOAR/70003158	Ministry of Economic Affairs and Communication			https://riha.eesti.ee/riha/main/kla/esa_institutsionaalsete_sektorite_s_eesti_jaoks_kohandatud_klassifikaator_2010/S.1311	http://register.fin.ee/RKOAR/70003158	Majandus- ja kommunikatisooniministeerium
+http://register.fin.ee/RKOAR/70001490	Estonian Road Administration			https://riha.eesti.ee/riha/main/kla/esa_institutsionaalsete_sektorite_s_eesti_jaoks_kohandatud_klassifikaator_2010/S.13111	http://register.fin.ee/RKOAR/70001490	Maanteeamet

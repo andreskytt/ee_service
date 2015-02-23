@@ -1,0 +1,4 @@
+ID	Description	Homepage	Language	Name	Type	Requires
+http://meta.ria.ee/RIHA/teenused/RIHA	Maintaining a registry of information systems of Estonia	http://meta.ria.ee/RIHA/teenused/RIHA	https://riha.eesti.ee/riha/main/kla/keelte_klassifikaator_2013/est	RIHA		http://www.mkm.ee/seadusloome
+http://www.mkm.ee/seadusloome	Creating legislation supporting public policies	http://www.mkm.ee/	https://riha.eesti.ee/riha/main/kla/keelte_klassifikaator_2013/est	Seadusloome		
+http://www.mkm.ee/teehooldus	Maintaining public roads	http://www.mnt.ee/	https://riha.eesti.ee/riha/main/kla/keelte_klassifikaator_2013/est	Teehooldus		

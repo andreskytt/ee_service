@@ -1,31 +1,135 @@
 [
-  {
-    "@context": {
-      "CPSV": "http:\/\/joinup.ec.europa.eu\/site\/core_vocabularies\/Core_Vocabularies_v1.1\/"
+    {
+        "@context": {
+            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1/LegalEntity"
+        },
+        "@id": "http://register.fin.ee/RKOAR/70006317",
+        "IngliskeelneNimi": {
+            "@type": "CPSV:AlternativeName",
+            "@value": "State Information Agency"
+        },
+        "JurID": {
+            "@type": "CPSV:LegalIdentifier",
+            "@value": "http://register.fin.ee/RKOAR/70006317"
+        },
+        "JurNimi": {
+            "@type": "CPSV:LegalName",
+            "@value": "Riigi Infosüsteemi Amet"
+        },
+        "Tüüp": {
+            "@type": "CPSV:CompanyType",
+            "@value": "https://riha.eesti.ee/riha/main/kla/esa_institutsionaalsete_sektorite_s_eesti_jaoks_kohandatud_klassifikaator_2010/S.13111"
+        }
     },
-    "@id": "http:\/\/register.fin.ee\/RKOAR\/70006317",
-    "@type": "CPSV:LegalEntity",
-    "nimetus": {
-      "@value": "Riigi Infos\u00fcsteemi Amet",
-      "@type": "CPSV:LegalName"
+    {
+        "@context": {
+            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1/LegalEntity"
+        },
+        "@id": "http://register.fin.ee/RKOAR/70003158",
+        "IngliskeelneNimi": {
+            "@type": "CPSV:AlternativeName",
+            "@value": "Ministry of Economic Affairs and Communication"
+        },
+        "JurID": {
+            "@type": "CPSV:LegalIdentifier",
+            "@value": "http://register.fin.ee/RKOAR/70003158"
+        },
+        "JurNimi": {
+            "@type": "CPSV:LegalName",
+            "@value": "Majandus- ja kommunikatisooniministeerium"
+        },
+        "Tüüp": {
+            "@type": "CPSV:CompanyType",
+            "@value": "https://riha.eesti.ee/riha/main/kla/esa_institutsionaalsete_sektorite_s_eesti_jaoks_kohandatud_klassifikaator_2010/S.1311"
+        }
     },
-    "teenus": {
-	"@value": "http:\/\/meta.ria.ee\/RIHA\/teenused\/RIHA",
-        "@type": "CPSV:Provides"
-      }
-	
-  },
-  {
-    "@context": {
-      "CPSV": "http:\/\/joinup.ec.europa.eu\/site\/core_vocabularies\/Core_Vocabularies_v1.1\/"
+    {
+        "@context": {
+            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1/LegalEntity"
+        },
+        "@id": "http://register.fin.ee/RKOAR/70001490",
+        "IngliskeelneNimi": {
+            "@type": "CPSV:AlternativeName",
+            "@value": "Estonian Road Administration"
+        },
+        "JurID": {
+            "@type": "CPSV:LegalIdentifier",
+            "@value": "http://register.fin.ee/RKOAR/70001490"
+        },
+        "JurNimi": {
+            "@type": "CPSV:LegalName",
+            "@value": "Maanteeamet"
+        },
+        "Tüüp": {
+            "@type": "CPSV:CompanyType",
+            "@value": "https://riha.eesti.ee/riha/main/kla/esa_institutsionaalsete_sektorite_s_eesti_jaoks_kohandatud_klassifikaator_2010/S.13111"
+        }
     },
-    "@id": "http:\/\/meta.ria.ee\/RIHA\/teenused\/RIHA",
-    "@type": "PublicService",
-    "kirjeldus": {
-      "@value": "Maintaining a registry of information systems of Estonia",
-      "@type": "\/PublicService\/Description"
+    {
+        "@context": {
+            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1/PublicService"
+        },
+        "@id": {
+            "@type": "CPSV:ID",
+            "@value": "Maintaining a registry of information systems of Estonia"
+        },
+        "Keel": {
+            "@type": "CPSV:Language",
+            "@value": "RIHA"
+        },
+        "Kirjeldus": {
+            "@type": "CPSV:Description",
+            "@value": "http://meta.ria.ee/RIHA/teenused/RIHA"
+        },
+        "Koduleht": {
+            "@type": "CPSV:Homepage",
+            "@value": "https://riha.eesti.ee/riha/main/kla/keelte_klassifikaator_2013/est"
+        },
+        "Tüüp": {
+            "@type": "CPSV:Type",
+            "@value": "http://www.mkm.ee/seadusloome"
+        }
+    },
+    {
+        "@context": {
+            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1/PublicService"
+        },
+        "@id": {
+            "@type": "CPSV:ID",
+            "@value": "Creating legislation supporting public policies"
+        },
+        "Keel": {
+            "@type": "CPSV:Language",
+            "@value": "Seadusloome"
+        },
+        "Kirjeldus": {
+            "@type": "CPSV:Description",
+            "@value": "http://www.mkm.ee/"
+        },
+        "Koduleht": {
+            "@type": "CPSV:Homepage",
+            "@value": "https://riha.eesti.ee/riha/main/kla/keelte_klassifikaator_2013/est"
+        }
+    },
+    {
+        "@context": {
+            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1/PublicService"
+        },
+        "@id": {
+            "@type": "CPSV:ID",
+            "@value": "Maintaining public roads"
+        },
+        "Keel": {
+            "@type": "CPSV:Language",
+            "@value": "Teehooldus"
+        },
+        "Kirjeldus": {
+            "@type": "CPSV:Description",
+            "@value": "http://www.mnt.ee/"
+        },
+        "Koduleht": {
+            "@type": "CPSV:Homepage",
+            "@value": "https://riha.eesti.ee/riha/main/kla/keelte_klassifikaator_2013/est"
+        }
     }
-  }
 ]
-
-
