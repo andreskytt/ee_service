@@ -9,12 +9,10 @@
       "@value": "Riigi Infos\u00fcsteemi Amet",
       "@type": "CPSV:LegalName"
     },
-    {
-    "teenus":{
+    "teenus": {
 	"@value": "http:\/\/meta.ria.ee\/RIHA\/teenused\/RIHA",
         "@type": "CPSV:Provides"
       }
-    }
 	
   },
   {
