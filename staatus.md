@@ -11,5 +11,10 @@ Teadaolevad puudused:
  * @context faili tasemele objekti asemel
  * backlinkingu tugi: teenuse parsimise juures uus agent tekitada
  * persisteerimisel võimekus sama IDga eri allikatest tulevaid objekte mergeda
- * S3st objektide võtmine ja JSON väljundi tekitamine
 
+
+Järgmised tegevused:
+ * Vead parandada
+ * S3st objektide võtmine ja JSON väljundi tekitamine
+ * JSONi spec (pärast vigade parandamist)
+ * S3 väljundi pealt visualiseering
