@@ -8,9 +8,6 @@ Lahtised küsimused:
  * Kuidas kodeerida teenuse tüüpi? CSVPs on tegu koodiga aga meil sellist klassifikaatorit ei ole. Kas teeme uue klassifikaatori ning hoiame näiteks githubis või kirjutame väärtused sisse ja lähme CSVPst mööda?
 
 Teadaolevad puudused:
- * @type tuleb contextist välja tõsta
- * @context faili tasemele objekti asemel
- * backlinkingu tugi: teenuse parsimise juures uus agent tekitada
  * persisteerimisel võimekus sama IDga eri allikatest tulevaid objekte mergeda
 
 Järgmised tegevused:
