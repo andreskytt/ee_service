@@ -4,7 +4,7 @@ Description	Kirjeldus
 	Sihtrühm
 	Valdkond
 Type	Tüüp
-ProvidedBy	Teenuseosutaja
+ProvidedBy	Teenuseosutaja	Provides:pakub
 	Mõõtmisaasta
 Homepage	Koduleht
 Language	Keel
