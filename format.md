@@ -18,7 +18,7 @@ An SDF file is an array of service objects. A service object is one of the follo
 * Each LegalEntity **must** have an attribute of type **CPSV:LegalName** 
 * If a LegalEntity provides services, the object **must** contain an attribute of type **CPSV:Provides** the **@value** of which **must** contain an array of service identifiers
 * Each PublicService object **must** have an attribute of type **CPSV:Name**
-* A PublicService object **may** contain an attribute of type **CPSV:ProvidedBy**. This is an utility extension of the CPSV vocabulary that is *not* part of the core specification
+* A PublicService object **may** contain an attribute of type **CPSV:ProvidedBy**. This is an utility extension of the CPSV vocabulary that is *not* part of the core specification. It's @value attribute can contain both an @id or **CPSV:LegalIdentifier** of a service provide
 * A SDF reference of type **http://meta.eesti.ee/tüüp/SDF/SDFReference** **must** have an **@value** attribute
 
 ## An example
