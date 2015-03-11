@@ -12,6 +12,7 @@ Teadaolevad puudused:
 
 Järgmised tegevused:
  * Vead parandada
+ * Harvesteril URLide tugi ja multithreaded võimekus
+ * Harvesteri pyld integratsioon
  * S3st objektide võtmine ja JSON väljundi tekitamine
- * JSONi spec (pärast vigade parandamist)
  * S3 väljundi pealt visualiseering
