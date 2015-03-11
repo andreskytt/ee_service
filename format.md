@@ -63,8 +63,7 @@ An SDF file is an array of service objects. A service object is one of the follo
         },
         "Kirjeldus": {
             "@type": "CPSV:Description",
-            "@value": "\"Tegevusluba on vaja taotleda, kui ettevõtja soovib tegutseda raudteevaldkonnas ning osutada järgmiseid teenuseid: avaliku raudteeinfrastruktuuri majandami
-ne; raudtee reisijatevedu; raudtee kaubavedu.\""
+            "@value": "\"Tegevusluba on vaja taotleda, kui ettevõtja soovib tegutseda raudteevaldkonnas ning osutada järgmiseid teenuseid: avaliku raudteeinfrastruktuuri majandamine; raudtee reisijatevedu; raudtee kaubavedu.\""
         },
         "Koduleht": {
             "@type": "CPSV:Homepage",
@@ -86,7 +85,7 @@ ne; raudtee reisijatevedu; raudtee kaubavedu.\""
         "Valdkond": "Raudteetransport"                                                                                                                           
     },
 {
-	"@type":"http://meta.eesti.ee/tüüp/SDF/SDFReference"
+	"@type":"http://meta.eesti.ee/tüüp/SDF/SDFReference",
 	"@value": "https://raw.githubusercontent.com/andreskytt/ee_service/master/sample_service.json"
 }                         
 ]
