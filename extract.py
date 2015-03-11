@@ -12,7 +12,7 @@ def convert(definition, content, previous=None):
 		cols = f.readlines()
 
 	(cpsv, tpe) = re.match("(.*)\/(\w*)$",cols[0].split('\t')[1].strip()).group(1,2)
-	c = {'CPSV':cpsv}
+	c = {'CPSV':cpsv + "/"}
 
 	firstDone = False
 	with codecs.open(content, encoding='UTF-16') as f:
@@ -31,7 +31,7 @@ def convert(definition, content, previous=None):
 			o = {}
 			o['@context'] = c  
 			o['@id'] = this_id
-			o['@type'] = tpe
+			o['@type'] = "CPSV:" + tpe
 
 			t = 1
 			for d in data:

@@ -1,10 +1,10 @@
 [
     {
         "@context": {
-            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1"
+            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1/"
         },
         "@id": "http://register.fin.ee/RKOAR/70000303",
-        "@type": "LegalEntity",
+        "@type": "CPSV:LegalEntity",
         "JurID": {
             "@type": "CPSV:LegalIdentifier",
             "@value": "http://register.fin.ee/RKOAR/70000303"
@@ -36,10 +36,10 @@
     },
     {
         "@context": {
-            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1"
+            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1/"
         },
         "@id": "http://register.fin.ee/RKOAR/70000800",
-        "@type": "LegalEntity",
+        "@type": "CPSV:LegalEntity",
         "JurID": {
             "@type": "CPSV:LegalIdentifier",
             "@value": "http://register.fin.ee/RKOAR/70000800"
@@ -82,10 +82,10 @@
     },
     {
         "@context": {
-            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1"
+            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1/"
         },
         "@id": "http://register.fin.ee/RKOAR/70001490",
-        "@type": "LegalEntity",
+        "@type": "CPSV:LegalEntity",
         "IngliskeelneNimi": {
             "@type": "CPSV:AlternativeName",
             "@value": "Estonian Road Administration"
@@ -157,10 +157,10 @@
     },
     {
         "@context": {
-            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1"
+            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1/"
         },
         "@id": "http://register.fin.ee/RKOAR/70003158",
-        "@type": "LegalEntity",
+        "@type": "CPSV:LegalEntity",
         "IngliskeelneNimi": {
             "@type": "CPSV:AlternativeName",
             "@value": "Ministry of Economic Affairs and Communication"
@@ -193,10 +193,10 @@
     },
     {
         "@context": {
-            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1"
+            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1/"
         },
         "@id": "http://register.fin.ee/RKOAR/70006317",
-        "@type": "LegalEntity",
+        "@type": "CPSV:LegalEntity",
         "IngliskeelneNimi": {
             "@type": "CPSV:AlternativeName",
             "@value": "State Information Agency"
@@ -247,10 +247,10 @@
     },
     {
         "@context": {
-            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1"
+            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1/"
         },
         "@id": "http://register.fin.ee/RKOAR/70003247",
-        "@type": "LegalEntity",
+        "@type": "CPSV:LegalEntity",
         "JurID": {
             "@type": "CPSV:LegalIdentifier",
             "@value": "http://register.fin.ee/RKOAR/70003247"
@@ -317,10 +317,10 @@
     },
     {
         "@context": {
-            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1"
+            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1/"
         },
         "@id": "http://register.fin.ee/RKOAR/70003218",
-        "@type": "LegalEntity",
+        "@type": "CPSV:LegalEntity",
         "JurID": {
             "@type": "CPSV:LegalIdentifier",
             "@value": "http://register.fin.ee/RKOAR/70003218"
@@ -391,10 +391,10 @@
     },
     {
         "@context": {
-            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1"
+            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1/"
         },
         "@id": "http://register.fin.ee/RKOAR/70006317",
-        "@type": "LegalEntity",
+        "@type": "CPSV:LegalEntity",
         "JurID": {
             "@type": "CPSV:LegalIdentifier",
             "@value": "http://register.fin.ee/RKOAR/70006317"
@@ -441,10 +441,10 @@
     },
     {
         "@context": {
-            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1"
+            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1/"
         },
         "@id": "http://www.mkm.ee/teenused/Allkirjastamisel_elukohateated",
-        "@type": "PublicService",
+        "@type": "CPSV:PublicService",
         "Keel": {
             "@type": "CPSV:Language",
             "@value": "https://riha.eesti.ee/riha/main/kla/keelte_klassifikaator_2013/est"
@@ -469,10 +469,10 @@
     },
     {
         "@context": {
-            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1"
+            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1/"
         },
         "@id": "http://www.mkm.ee/teenused/Ametlikud_vormid",
-        "@type": "PublicService",
+        "@type": "CPSV:PublicService",
         "Keel": {
             "@type": "CPSV:Language",
             "@value": "https://riha.eesti.ee/riha/main/kla/keelte_klassifikaator_2013/est"
@@ -502,10 +502,10 @@
     },
     {
         "@context": {
-            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1"
+            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1/"
         },
         "@id": "http://www.mkm.ee/teenused/Vastavushindamisasutusena_tegutsemise_loa_väljastamine",
-        "@type": "PublicService",
+        "@type": "CPSV:PublicService",
         "Keel": {
             "@type": "CPSV:Language",
             "@value": "https://riha.eesti.ee/riha/main/kla/keelte_klassifikaator_2013/est"
@@ -530,10 +530,10 @@
     },
     {
         "@context": {
-            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1"
+            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1/"
         },
         "@id": "http://www.mkm.ee/teenused/Asutuse_teenuste_kasutajate_õiguste_haldamine_(X-tee)",
-        "@type": "PublicService",
+        "@type": "CPSV:PublicService",
         "Keel": {
             "@type": "CPSV:Language",
             "@value": "https://riha.eesti.ee/riha/main/kla/keelte_klassifikaator_2013/est"
@@ -563,10 +563,10 @@
     },
     {
         "@context": {
-            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1"
+            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1/"
         },
         "@id": "http://www.mkm.ee/teenused/Autoriseerimine",
-        "@type": "PublicService",
+        "@type": "CPSV:PublicService",
         "Keel": {
             "@type": "CPSV:Language",
             "@value": "https://riha.eesti.ee/riha/main/kla/keelte_klassifikaator_2013/est"
@@ -596,10 +596,10 @@
     },
     {
         "@context": {
-            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1"
+            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1/"
         },
         "@id": "http://www.mkm.ee/teenused/Digitaalse_sõidumeeriku_kaardid_kodanikule",
-        "@type": "PublicService",
+        "@type": "CPSV:PublicService",
         "Keel": {
             "@type": "CPSV:Language",
             "@value": "https://riha.eesti.ee/riha/main/kla/keelte_klassifikaator_2013/est"
@@ -629,10 +629,10 @@
     },
     {
         "@context": {
-            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1"
+            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1/"
         },
         "@id": "http://www.mkm.ee/teenused/Ehitisregistris_registreeritud_vallasvara",
-        "@type": "PublicService",
+        "@type": "CPSV:PublicService",
         "Keel": {
             "@type": "CPSV:Language",
             "@value": "https://riha.eesti.ee/riha/main/kla/keelte_klassifikaator_2013/est"
@@ -662,10 +662,10 @@
     },
     {
         "@context": {
-            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1"
+            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1/"
         },
         "@id": "http://www.mkm.ee/teenused/Esitatud_elukohtateated",
-        "@type": "PublicService",
+        "@type": "CPSV:PublicService",
         "Keel": {
             "@type": "CPSV:Language",
             "@value": "https://riha.eesti.ee/riha/main/kla/keelte_klassifikaator_2013/est"
@@ -694,10 +694,10 @@
     },
     {
         "@context": {
-            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1"
+            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1/"
         },
         "@id": "http://www.mkm.ee/teenused/Ettevõtja_otsing_majandustegevuse_registrist",
-        "@type": "PublicService",
+        "@type": "CPSV:PublicService",
         "Keel": {
             "@type": "CPSV:Language",
             "@value": "https://riha.eesti.ee/riha/main/kla/keelte_klassifikaator_2013/est"
@@ -727,10 +727,10 @@
     },
     {
         "@context": {
-            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1"
+            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1/"
         },
         "@id": "http://www.mkm.ee/teenused/E-valijakaart",
-        "@type": "PublicService",
+        "@type": "CPSV:PublicService",
         "Keel": {
             "@type": "CPSV:Language",
             "@value": "https://riha.eesti.ee/riha/main/kla/keelte_klassifikaator_2013/est"
@@ -759,10 +759,10 @@
     },
     {
         "@context": {
-            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1"
+            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1/"
         },
         "@id": "http://www.mkm.ee/teenused/Isiklike_sõidukite_päring",
-        "@type": "PublicService",
+        "@type": "CPSV:PublicService",
         "Keel": {
             "@type": "CPSV:Language",
             "@value": "https://riha.eesti.ee/riha/main/kla/keelte_klassifikaator_2013/est"
@@ -792,10 +792,10 @@
     },
     {
         "@context": {
-            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1"
+            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1/"
         },
         "@id": "http://www.mkm.ee/teenused/Juhilubade_ja_tunnistuste_kehtivuse_kontrollimine",
-        "@type": "PublicService",
+        "@type": "CPSV:PublicService",
         "Keel": {
             "@type": "CPSV:Language",
             "@value": "https://riha.eesti.ee/riha/main/kla/keelte_klassifikaator_2013/est"
@@ -825,10 +825,10 @@
     },
     {
         "@context": {
-            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1"
+            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1/"
         },
         "@id": "http://www.mkm.ee/teenused/Juhilubade_päring",
-        "@type": "PublicService",
+        "@type": "CPSV:PublicService",
         "Keel": {
             "@type": "CPSV:Language",
             "@value": "https://riha.eesti.ee/riha/main/kla/keelte_klassifikaator_2013/est"
@@ -858,10 +858,10 @@
     },
     {
         "@context": {
-            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1"
+            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1/"
         },
         "@id": "http://www.mkm.ee/teenused/Kinnistul_paiknevad_Ehitisregistris_registreeritud_ehitised",
-        "@type": "PublicService",
+        "@type": "CPSV:PublicService",
         "Keel": {
             "@type": "CPSV:Language",
             "@value": "https://riha.eesti.ee/riha/main/kla/keelte_klassifikaator_2013/est"
@@ -891,10 +891,10 @@
     },
     {
         "@context": {
-            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1"
+            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1/"
         },
         "@id": "http://www.mkm.ee/teenused/Kodaniku_väikelaevade_päring",
-        "@type": "PublicService",
+        "@type": "CPSV:PublicService",
         "Keel": {
             "@type": "CPSV:Language",
             "@value": "https://riha.eesti.ee/riha/main/kla/keelte_klassifikaator_2013/est"
@@ -924,10 +924,10 @@
     },
     {
         "@context": {
-            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1"
+            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1/"
         },
         "@id": "http://www.mkm.ee/teenused/Kutsetunnistus_ja_taksojuhi_kutsetunnistus_kodanikule",
-        "@type": "PublicService",
+        "@type": "CPSV:PublicService",
         "Keel": {
             "@type": "CPSV:Language",
             "@value": "https://riha.eesti.ee/riha/main/kla/keelte_klassifikaator_2013/est"
@@ -957,10 +957,10 @@
     },
     {
         "@context": {
-            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1"
+            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1/"
         },
         "@id": "http://www.mkm.ee/teenused/Minuga_seotud_ettevõtjad",
-        "@type": "PublicService",
+        "@type": "CPSV:PublicService",
         "Keel": {
             "@type": "CPSV:Language",
             "@value": "https://riha.eesti.ee/riha/main/kla/keelte_klassifikaator_2013/est"
@@ -990,10 +990,10 @@
     },
     {
         "@context": {
-            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1"
+            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1/"
         },
         "@id": "http://www.mkm.ee/teenused/Registreeringu_otsing_majandustegevuse_registrist",
-        "@type": "PublicService",
+        "@type": "CPSV:PublicService",
         "Keel": {
             "@type": "CPSV:Language",
             "@value": "https://riha.eesti.ee/riha/main/kla/keelte_klassifikaator_2013/est"
@@ -1023,10 +1023,10 @@
     },
     {
         "@context": {
-            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1"
+            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1/"
         },
         "@id": "http://www.mkm.ee/teenused/Sisenemine_elektroonilisse_mereinfosüsteemi",
-        "@type": "PublicService",
+        "@type": "CPSV:PublicService",
         "Keel": {
             "@type": "CPSV:Language",
             "@value": "https://riha.eesti.ee/riha/main/kla/keelte_klassifikaator_2013/est"
@@ -1056,10 +1056,10 @@
     },
     {
         "@context": {
-            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1"
+            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1/"
         },
         "@id": "http://www.mkm.ee/teenused/Sisenemine_majandustegevuse_registrisse_(MTR)",
-        "@type": "PublicService",
+        "@type": "CPSV:PublicService",
         "Keel": {
             "@type": "CPSV:Language",
             "@value": "https://riha.eesti.ee/riha/main/kla/keelte_klassifikaator_2013/est"
@@ -1089,10 +1089,10 @@
     },
     {
         "@context": {
-            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1"
+            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1/"
         },
         "@id": "http://www.mkm.ee/teenused/Sisenemine_sadamaregistrisse",
-        "@type": "PublicService",
+        "@type": "CPSV:PublicService",
         "Keel": {
             "@type": "CPSV:Language",
             "@value": "https://riha.eesti.ee/riha/main/kla/keelte_klassifikaator_2013/est"
@@ -1122,10 +1122,10 @@
     },
     {
         "@context": {
-            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1"
+            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1/"
         },
         "@id": "http://www.mkm.ee/teenused/Struktuuritoetuse_infosüsteem",
-        "@type": "PublicService",
+        "@type": "CPSV:PublicService",
         "Keel": {
             "@type": "CPSV:Language",
             "@value": "https://riha.eesti.ee/riha/main/kla/keelte_klassifikaator_2013/est"
@@ -1154,10 +1154,10 @@
     },
     {
         "@context": {
-            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1"
+            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1/"
         },
         "@id": "http://www.mkm.ee/teenused/Teehoiu_infosüsteem",
-        "@type": "PublicService",
+        "@type": "CPSV:PublicService",
         "Keel": {
             "@type": "CPSV:Language",
             "@value": "https://riha.eesti.ee/riha/main/kla/keelte_klassifikaator_2013/est"
@@ -1187,10 +1187,10 @@
     },
     {
         "@context": {
-            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1"
+            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1/"
         },
         "@id": "http://www.mkm.ee/teenused/Teetööde_tehnilised_kirjeldused",
-        "@type": "PublicService",
+        "@type": "CPSV:PublicService",
         "Keel": {
             "@type": "CPSV:Language",
             "@value": "https://riha.eesti.ee/riha/main/kla/keelte_klassifikaator_2013/est"
@@ -1220,10 +1220,10 @@
     },
     {
         "@context": {
-            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1"
+            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1/"
         },
         "@id": "http://www.mkm.ee/teenused/Tegevusloa_otsing_majandustegevuse_registrist",
-        "@type": "PublicService",
+        "@type": "CPSV:PublicService",
         "Keel": {
             "@type": "CPSV:Language",
             "@value": "https://riha.eesti.ee/riha/main/kla/keelte_klassifikaator_2013/est"
@@ -1253,10 +1253,10 @@
     },
     {
         "@context": {
-            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1"
+            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1/"
         },
         "@id": "http://www.mkm.ee/teenused/Veolubade_infosüsteem",
-        "@type": "PublicService",
+        "@type": "CPSV:PublicService",
         "Keel": {
             "@type": "CPSV:Language",
             "@value": "https://riha.eesti.ee/riha/main/kla/keelte_klassifikaator_2013/est"
@@ -1286,10 +1286,10 @@
     },
     {
         "@context": {
-            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1"
+            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1/"
         },
         "@id": "http://www.mkm.ee/teenused/Väikelaevajuhi_andmete_päring",
-        "@type": "PublicService",
+        "@type": "CPSV:PublicService",
         "Keel": {
             "@type": "CPSV:Language",
             "@value": "https://riha.eesti.ee/riha/main/kla/keelte_klassifikaator_2013/est"
@@ -1319,10 +1319,10 @@
     },
     {
         "@context": {
-            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1"
+            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1/"
         },
         "@id": "http://www.mkm.ee/teenused/Küsimuskaebus_tarbijakaitseametile",
-        "@type": "PublicService",
+        "@type": "CPSV:PublicService",
         "Keel": {
             "@type": "CPSV:Language",
             "@value": "https://riha.eesti.ee/riha/main/kla/keelte_klassifikaator_2013/est"
@@ -1353,10 +1353,10 @@
     },
     {
         "@context": {
-            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1"
+            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1/"
         },
         "@id": "http://www.mkm.ee/teenused/Raudteeseaduse_tegevuslubade_taotlemine",
-        "@type": "PublicService",
+        "@type": "CPSV:PublicService",
         "Keel": {
             "@type": "CPSV:Language",
             "@value": "https://riha.eesti.ee/riha/main/kla/keelte_klassifikaator_2013/est"
@@ -1386,10 +1386,10 @@
     },
     {
         "@context": {
-            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1"
+            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1/"
         },
         "@id": "http://www.mkm.ee/teenused/Elektrituruseaduse_tegevuslubade_taotlemine",
-        "@type": "PublicService",
+        "@type": "CPSV:PublicService",
         "Keel": {
             "@type": "CPSV:Language",
             "@value": "https://riha.eesti.ee/riha/main/kla/keelte_klassifikaator_2013/est"
@@ -1419,10 +1419,10 @@
     },
     {
         "@context": {
-            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1"
+            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1/"
         },
         "@id": "http://www.mkm.ee/teenused/Gaasiettevõtja_tegevusloa_taotlemine",
-        "@type": "PublicService",
+        "@type": "CPSV:PublicService",
         "Keel": {
             "@type": "CPSV:Language",
             "@value": "https://riha.eesti.ee/riha/main/kla/keelte_klassifikaator_2013/est"
@@ -1452,10 +1452,10 @@
     },
     {
         "@context": {
-            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1"
+            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1/"
         },
         "@id": "http://www.mkm.ee/teenused/Soojusettevõtja_tegevusloa_taotlemine",
-        "@type": "PublicService",
+        "@type": "CPSV:PublicService",
         "Keel": {
             "@type": "CPSV:Language",
             "@value": "https://riha.eesti.ee/riha/main/kla/keelte_klassifikaator_2013/est"
@@ -1485,10 +1485,10 @@
     },
     {
         "@context": {
-            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1"
+            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1/"
         },
         "@id": "http://www.mkm.ee/teenused/Postiteenuse_tegevusloa_taotlemine",
-        "@type": "PublicService",
+        "@type": "CPSV:PublicService",
         "Keel": {
             "@type": "CPSV:Language",
             "@value": "https://riha.eesti.ee/riha/main/kla/keelte_klassifikaator_2013/est"
@@ -1518,10 +1518,10 @@
     },
     {
         "@context": {
-            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1"
+            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1/"
         },
         "@id": "http://www.mkm.ee/teenused/Vee_hinna_kooskõlastamine",
-        "@type": "PublicService",
+        "@type": "CPSV:PublicService",
         "Keel": {
             "@type": "CPSV:Language",
             "@value": "https://riha.eesti.ee/riha/main/kla/keelte_klassifikaator_2013/est"
@@ -1546,10 +1546,10 @@
     },
     {
         "@context": {
-            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1"
+            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1/"
         },
         "@id": "http://www.mkm.ee/teenused/Soojuse_hinna_kooskõlastamine",
-        "@type": "PublicService",
+        "@type": "CPSV:PublicService",
         "Keel": {
             "@type": "CPSV:Language",
             "@value": "https://riha.eesti.ee/riha/main/kla/keelte_klassifikaator_2013/est"
@@ -1574,10 +1574,10 @@
     },
     {
         "@context": {
-            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1"
+            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1/"
         },
         "@id": "http://www.mkm.ee/teenused/Elektri_hinna_kooskõlastamine",
-        "@type": "PublicService",
+        "@type": "CPSV:PublicService",
         "Keel": {
             "@type": "CPSV:Language",
             "@value": "https://riha.eesti.ee/riha/main/kla/keelte_klassifikaator_2013/est"
@@ -1602,10 +1602,10 @@
     },
     {
         "@context": {
-            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1"
+            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1/"
         },
         "@id": "http://www.mkm.ee/teenused/Maagaasi_hinna_kooskõlastamine",
-        "@type": "PublicService",
+        "@type": "CPSV:PublicService",
         "Keel": {
             "@type": "CPSV:Language",
             "@value": "https://riha.eesti.ee/riha/main/kla/keelte_klassifikaator_2013/est"
@@ -1630,10 +1630,10 @@
     },
     {
         "@context": {
-            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1"
+            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1/"
         },
         "@id": "http://www.mkm.ee/teenused/Turuanalüüside_küsimustikud",
-        "@type": "PublicService",
+        "@type": "CPSV:PublicService",
         "Keel": {
             "@type": "CPSV:Language",
             "@value": "https://riha.eesti.ee/riha/main/kla/keelte_klassifikaator_2013/est"
@@ -1658,10 +1658,10 @@
     },
     {
         "@context": {
-            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1"
+            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1/"
         },
         "@id": "http://www.mkm.ee/teenused/Sideteenuste_kalkulaator",
-        "@type": "PublicService",
+        "@type": "CPSV:PublicService",
         "Keel": {
             "@type": "CPSV:Language",
             "@value": "https://riha.eesti.ee/riha/main/kla/keelte_klassifikaator_2013/est"
@@ -1689,10 +1689,10 @@
     },
     {
         "@context": {
-            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1"
+            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1/"
         },
         "@id": "http://www.mkm.ee/teenused/Teabenõue_Konkurentsiametile",
-        "@type": "PublicService",
+        "@type": "CPSV:PublicService",
         "Keel": {
             "@type": "CPSV:Language",
             "@value": "https://riha.eesti.ee/riha/main/kla/keelte_klassifikaator_2013/est"
@@ -1720,10 +1720,10 @@
     },
     {
         "@context": {
-            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1"
+            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1/"
         },
         "@id": "\"http://www.mkm.ee/teenused/Ettepanek,_kaebus_Lennuametile\"",
-        "@type": "PublicService",
+        "@type": "CPSV:PublicService",
         "Keel": {
             "@type": "CPSV:Language",
             "@value": "https://riha.eesti.ee/riha/main/kla/keelte_klassifikaator_2013/est"
@@ -1752,10 +1752,10 @@
     },
     {
         "@context": {
-            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1"
+            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1/"
         },
         "@id": "http://www.mkm.ee/teenused/Teavitus_tähelepanekutest_lennutegevuses",
-        "@type": "PublicService",
+        "@type": "CPSV:PublicService",
         "Keel": {
             "@type": "CPSV:Language",
             "@value": "https://riha.eesti.ee/riha/main/kla/keelte_klassifikaator_2013/est"
@@ -1784,10 +1784,10 @@
     },
     {
         "@context": {
-            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1"
+            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1/"
         },
         "@id": "http://www.mkm.ee/teenused/Teabenõude_esitamine_Lennuametile",
-        "@type": "PublicService",
+        "@type": "CPSV:PublicService",
         "Keel": {
             "@type": "CPSV:Language",
             "@value": "https://riha.eesti.ee/riha/main/kla/keelte_klassifikaator_2013/est"
@@ -1816,10 +1816,10 @@
     },
     {
         "@context": {
-            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1"
+            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1/"
         },
         "@id": "http://www.mkm.ee/teenused/Hinnang_Lennuameti_järelevalvele",
-        "@type": "PublicService",
+        "@type": "CPSV:PublicService",
         "Keel": {
             "@type": "CPSV:Language",
             "@value": "https://riha.eesti.ee/riha/main/kla/keelte_klassifikaator_2013/est"
@@ -1848,10 +1848,10 @@
     },
     {
         "@context": {
-            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1"
+            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1/"
         },
         "@id": "http://www.mkm.ee/teenused/Tagasiside_Lennuametile",
-        "@type": "PublicService",
+        "@type": "CPSV:PublicService",
         "Keel": {
             "@type": "CPSV:Language",
             "@value": "https://riha.eesti.ee/riha/main/kla/keelte_klassifikaator_2013/est"
@@ -1880,10 +1880,10 @@
     },
     {
         "@context": {
-            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1"
+            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1/"
         },
         "@id": "http://www.mkm.ee/teenused/Nõustamine_ja_vastuvõtt_Lennuametis",
-        "@type": "PublicService",
+        "@type": "CPSV:PublicService",
         "Keel": {
             "@type": "CPSV:Language",
             "@value": "https://riha.eesti.ee/riha/main/kla/keelte_klassifikaator_2013/est"
@@ -1904,10 +1904,10 @@
     },
     {
         "@context": {
-            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1"
+            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1/"
         },
         "@id": "http://www.mkm.ee/teenused/Lennuohutuse_järelevalve_süsteem",
-        "@type": "PublicService",
+        "@type": "CPSV:PublicService",
         "Keel": {
             "@type": "CPSV:Language",
             "@value": "https://riha.eesti.ee/riha/main/kla/keelte_klassifikaator_2013/est"
@@ -1932,10 +1932,10 @@
     },
     {
         "@context": {
-            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1"
+            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1/"
         },
         "@id": "http://www.mkm.ee/teenused/Lennumeeskonna_liikmete_lubade_taotlemine",
-        "@type": "PublicService",
+        "@type": "CPSV:PublicService",
         "Keel": {
             "@type": "CPSV:Language",
             "@value": "https://riha.eesti.ee/riha/main/kla/keelte_klassifikaator_2013/est"
@@ -1960,10 +1960,10 @@
     },
     {
         "@context": {
-            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1"
+            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1/"
         },
         "@id": "http://www.mkm.ee/teenused/Lennundustehnilise_töötaja_loa_taotlemine",
-        "@type": "PublicService",
+        "@type": "CPSV:PublicService",
         "Keel": {
             "@type": "CPSV:Language",
             "@value": "https://riha.eesti.ee/riha/main/kla/keelte_klassifikaator_2013/est"
@@ -1988,10 +1988,10 @@
     },
     {
         "@context": {
-            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1"
+            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1/"
         },
         "@id": "http://www.mkm.ee/teenused/Kontrollpiloodi_tunnistuste_ja_lubade_taotlemine",
-        "@type": "PublicService",
+        "@type": "CPSV:PublicService",
         "Keel": {
             "@type": "CPSV:Language",
             "@value": "https://riha.eesti.ee/riha/main/kla/keelte_klassifikaator_2013/est"
@@ -2016,10 +2016,10 @@
     },
     {
         "@context": {
-            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1"
+            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1/"
         },
         "@id": "http://www.mkm.ee/teenused/Lennujuhi_loa_taotlemine",
-        "@type": "PublicService",
+        "@type": "CPSV:PublicService",
         "Keel": {
             "@type": "CPSV:Language",
             "@value": "https://riha.eesti.ee/riha/main/kla/keelte_klassifikaator_2013/est"
@@ -2044,10 +2044,10 @@
     },
     {
         "@context": {
-            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1"
+            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1/"
         },
         "@id": "http://www.mkm.ee/teenused/Tervisekontrolli_taotluste_esitamine",
-        "@type": "PublicService",
+        "@type": "CPSV:PublicService",
         "Keel": {
             "@type": "CPSV:Language",
             "@value": "https://riha.eesti.ee/riha/main/kla/keelte_klassifikaator_2013/est"
@@ -2072,10 +2072,10 @@
     },
     {
         "@context": {
-            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1"
+            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1/"
         },
         "@id": "http://www.mkm.ee/teenused/Lennunduskoolituste_taotluste_esitamine",
-        "@type": "PublicService",
+        "@type": "CPSV:PublicService",
         "Keel": {
             "@type": "CPSV:Language",
             "@value": "https://riha.eesti.ee/riha/main/kla/keelte_klassifikaator_2013/est"
@@ -2100,10 +2100,10 @@
     },
     {
         "@context": {
-            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1"
+            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1/"
         },
         "@id": "http://www.mkm.ee/teenused/Lennundustehnika_taotluste_esitamine",
-        "@type": "PublicService",
+        "@type": "CPSV:PublicService",
         "Keel": {
             "@type": "CPSV:Language",
             "@value": "https://riha.eesti.ee/riha/main/kla/keelte_klassifikaator_2013/est"
@@ -2128,10 +2128,10 @@
     },
     {
         "@context": {
-            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1"
+            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1/"
         },
         "@id": "http://www.mkm.ee/teenused/Aeronavigatsiooniteenuste_taotluse_esitamine",
-        "@type": "PublicService",
+        "@type": "CPSV:PublicService",
         "Keel": {
             "@type": "CPSV:Language",
             "@value": "https://riha.eesti.ee/riha/main/kla/keelte_klassifikaator_2013/est"
@@ -2156,10 +2156,10 @@
     },
     {
         "@context": {
-            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1"
+            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1/"
         },
         "@id": "http://www.mkm.ee/teenused/Lennujuhtimis-_ja_raadionavigatsiooniseadmete_sertifitseermise_taotluse_esitamine",
-        "@type": "PublicService",
+        "@type": "CPSV:PublicService",
         "Keel": {
             "@type": "CPSV:Language",
             "@value": "https://riha.eesti.ee/riha/main/kla/keelte_klassifikaator_2013/est"
@@ -2184,10 +2184,10 @@
     },
     {
         "@context": {
-            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1"
+            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1/"
         },
         "@id": "http://www.mkm.ee/teenused/Lennuvälja_või_kopteriväljaku_sertifikaadi_taotluse_esitamine",
-        "@type": "PublicService",
+        "@type": "CPSV:PublicService",
         "Keel": {
             "@type": "CPSV:Language",
             "@value": "https://riha.eesti.ee/riha/main/kla/keelte_klassifikaator_2013/est"
@@ -2212,10 +2212,10 @@
     },
     {
         "@context": {
-            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1"
+            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1/"
         },
         "@id": "http://www.mkm.ee/teenused/Lennundusjulgestuse_taotluse_esitamine",
-        "@type": "PublicService",
+        "@type": "CPSV:PublicService",
         "Keel": {
             "@type": "CPSV:Language",
             "@value": "https://riha.eesti.ee/riha/main/kla/keelte_klassifikaator_2013/est"
@@ -2240,10 +2240,10 @@
     },
     {
         "@context": {
-            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1"
+            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1/"
         },
         "@id": "http://www.mkm.ee/teenused/Kõrgehitiste_ja_rajatiste_kooskõlastamine",
-        "@type": "PublicService",
+        "@type": "CPSV:PublicService",
         "Keel": {
             "@type": "CPSV:Language",
             "@value": "https://riha.eesti.ee/riha/main/kla/keelte_klassifikaator_2013/est"
@@ -2268,10 +2268,10 @@
     },
     {
         "@context": {
-            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1"
+            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1/"
         },
         "@id": "http://www.mkm.ee/teenused/Funktsionaalsetesse_süsteemidesse_tehtavatest_muudatustest_teatamine",
-        "@type": "PublicService",
+        "@type": "CPSV:PublicService",
         "Keel": {
             "@type": "CPSV:Language",
             "@value": "https://riha.eesti.ee/riha/main/kla/keelte_klassifikaator_2013/est"
@@ -2296,10 +2296,10 @@
     },
     {
         "@context": {
-            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1"
+            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1/"
         },
         "@id": "http://www.mkm.ee/teenused/Lennuohutust_mõjutavast_juhtumist_teatamine",
-        "@type": "PublicService",
+        "@type": "CPSV:PublicService",
         "Keel": {
             "@type": "CPSV:Language",
             "@value": "https://riha.eesti.ee/riha/main/kla/keelte_klassifikaator_2013/est"
@@ -2324,10 +2324,10 @@
     },
     {
         "@context": {
-            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1"
+            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1/"
         },
         "@id": "http://www.mkm.ee/teenused/Lennuettevõtja_sertifikaadi_taotlemine",
-        "@type": "PublicService",
+        "@type": "CPSV:PublicService",
         "Keel": {
             "@type": "CPSV:Language",
             "@value": "https://riha.eesti.ee/riha/main/kla/keelte_klassifikaator_2013/est"
@@ -2352,10 +2352,10 @@
     },
     {
         "@context": {
-            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1"
+            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1/"
         },
         "@id": "http://www.mkm.ee/teenused/Tunnustamisotsuse taotlemine",
-        "@type": "PublicService",
+        "@type": "CPSV:PublicService",
         "Keel": {
             "@type": "CPSV:Language",
             "@value": "https://riha.eesti.ee/riha/main/kla/keelte_klassifikaator_2013/est"
@@ -2384,10 +2384,10 @@
     },
     {
         "@context": {
-            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1"
+            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1/"
         },
         "@id": "http://www.mkm.ee/teenused/Laevapereta_prahitud_laevade_registri_kande_muudatuse_tegemine_ja_registrist_kustutamine",
-        "@type": "PublicService",
+        "@type": "CPSV:PublicService",
         "Keel": {
             "@type": "CPSV:Language",
             "@value": "https://riha.eesti.ee/riha/main/kla/keelte_klassifikaator_2013/est"
@@ -2412,10 +2412,10 @@
     },
     {
         "@context": {
-            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1"
+            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1/"
         },
         "@id": "http://www.mkm.ee/teenused/Veesõiduki_tehniline_ülevaatus",
-        "@type": "PublicService",
+        "@type": "CPSV:PublicService",
         "Keel": {
             "@type": "CPSV:Language",
             "@value": "https://riha.eesti.ee/riha/main/kla/keelte_klassifikaator_2013/est"
@@ -2440,10 +2440,10 @@
     },
     {
         "@context": {
-            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1"
+            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1/"
         },
         "@id": "http://www.mkm.ee/teenused/Reederi_ja_laeva_meresõiduohutusalane_auditeerimine",
-        "@type": "PublicService",
+        "@type": "CPSV:PublicService",
         "Keel": {
             "@type": "CPSV:Language",
             "@value": "https://riha.eesti.ee/riha/main/kla/keelte_klassifikaator_2013/est"
@@ -2468,10 +2468,10 @@
     },
     {
         "@context": {
-            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1"
+            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1/"
         },
         "@id": "http://www.mkm.ee/teenused/Laeva_turvaülevaatus",
-        "@type": "PublicService",
+        "@type": "CPSV:PublicService",
         "Keel": {
             "@type": "CPSV:Language",
             "@value": "https://riha.eesti.ee/riha/main/kla/keelte_klassifikaator_2013/est"
@@ -2496,10 +2496,10 @@
     },
     {
         "@context": {
-            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1"
+            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1/"
         },
         "@id": "http://www.mkm.ee/teenused/Laevapere_liikme_töö-_ja_elamistingimuste_ülevaatus",
-        "@type": "PublicService",
+        "@type": "CPSV:PublicService",
         "Keel": {
             "@type": "CPSV:Language",
             "@value": "https://riha.eesti.ee/riha/main/kla/keelte_klassifikaator_2013/est"
@@ -2524,10 +2524,10 @@
     },
     {
         "@context": {
-            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1"
+            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1/"
         },
         "@id": "http://www.mkm.ee/teenused/Tegevusloa_taotluse_läbivaatamine",
-        "@type": "PublicService",
+        "@type": "CPSV:PublicService",
         "Keel": {
             "@type": "CPSV:Language",
             "@value": "https://riha.eesti.ee/riha/main/kla/keelte_klassifikaator_2013/est"
@@ -2552,10 +2552,10 @@
     },
     {
         "@context": {
-            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1"
+            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1/"
         },
         "@id": "http://www.mkm.ee/teenused/Lootsi_kvalifikatsioonieksami_ja_lootsitasõidu_eksami_vastuvõtmine",
-        "@type": "PublicService",
+        "@type": "CPSV:PublicService",
         "Keel": {
             "@type": "CPSV:Language",
             "@value": "https://riha.eesti.ee/riha/main/kla/keelte_klassifikaator_2013/est"
@@ -2580,10 +2580,10 @@
     },
     {
         "@context": {
-            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1"
+            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1/"
         },
         "@id": "http://www.mkm.ee/teenused/Kemikaalitankeri_lastioperatsioonide_ülevaatus",
-        "@type": "PublicService",
+        "@type": "CPSV:PublicService",
         "Keel": {
             "@type": "CPSV:Language",
             "@value": "https://riha.eesti.ee/riha/main/kla/keelte_klassifikaator_2013/est"
@@ -2608,10 +2608,10 @@
     },
     {
         "@context": {
-            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1"
+            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1/"
         },
         "@id": "\"http://www.mkm.ee/teenused/ Laevale,_lootsile_ja_laevaliikluse_korraldamise_süsteemi_operaatorile_tunnistuste_väljastamine\"",
-        "@type": "PublicService",
+        "@type": "CPSV:PublicService",
         "Keel": {
             "@type": "CPSV:Language",
             "@value": "https://riha.eesti.ee/riha/main/kla/keelte_klassifikaator_2013/est"
@@ -2636,10 +2636,10 @@
     },
     {
         "@context": {
-            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1"
+            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1/"
         },
         "@id": "http://www.mkm.ee/teenused/ Laeva_tehnilise_dokumentatsiooni_läbivaatamine_ja_kooskõlastamine",
-        "@type": "PublicService",
+        "@type": "CPSV:PublicService",
         "Keel": {
             "@type": "CPSV:Language",
             "@value": "https://riha.eesti.ee/riha/main/kla/keelte_klassifikaator_2013/est"
@@ -2664,10 +2664,10 @@
     },
     {
         "@context": {
-            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1"
+            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1/"
         },
         "@id": "http://www.mkm.ee/teenused/ Laevale_tunnistuste_ja_tõendite_väljastamise_aluseks_oleva_dokumentatsiooni_läbivaatamine",
-        "@type": "PublicService",
+        "@type": "CPSV:PublicService",
         "Keel": {
             "@type": "CPSV:Language",
             "@value": "https://riha.eesti.ee/riha/main/kla/keelte_klassifikaator_2013/est"
@@ -2692,10 +2692,10 @@
     },
     {
         "@context": {
-            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1"
+            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1/"
         },
         "@id": "http://www.mkm.ee/teenused/Laevapere_liikme_kutseeksami_vastuvõtmine",
-        "@type": "PublicService",
+        "@type": "CPSV:PublicService",
         "Keel": {
             "@type": "CPSV:Language",
             "@value": "https://riha.eesti.ee/riha/main/kla/keelte_klassifikaator_2013/est"
@@ -2720,10 +2720,10 @@
     },
     {
         "@context": {
-            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1"
+            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1/"
         },
         "@id": "http://www.mkm.ee/teenused/Laevapere_liikmetele_diplomite_ja_tunnistuste_väljastamine",
-        "@type": "PublicService",
+        "@type": "CPSV:PublicService",
         "Keel": {
             "@type": "CPSV:Language",
             "@value": "https://riha.eesti.ee/riha/main/kla/keelte_klassifikaator_2013/est"
@@ -2748,10 +2748,10 @@
     },
     {
         "@context": {
-            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1"
+            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1/"
         },
         "@id": "http://www.mkm.ee/teenused/Väikelaeva_raadiosideoperaatori_tunnistuse_väljastamine",
-        "@type": "PublicService",
+        "@type": "CPSV:PublicService",
         "Keel": {
             "@type": "CPSV:Language",
             "@value": "https://riha.eesti.ee/riha/main/kla/keelte_klassifikaator_2013/est"
@@ -2776,10 +2776,10 @@
     },
     {
         "@context": {
-            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1"
+            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1/"
         },
         "@id": "http://www.mkm.ee/teenused/Sadamarajatise_turvatunnistuse_väljastamine_ja_tunnistusele_märke_tegemine",
-        "@type": "PublicService",
+        "@type": "CPSV:PublicService",
         "Keel": {
             "@type": "CPSV:Language",
             "@value": "https://riha.eesti.ee/riha/main/kla/keelte_klassifikaator_2013/est"
@@ -2804,10 +2804,10 @@
     },
     {
         "@context": {
-            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1"
+            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1/"
         },
         "@id": "http://www.mkm.ee/teenused/Sadamakapteni_ning_sadama_ja_sadamarajatise_turvaülema_atesteerimine",
-        "@type": "PublicService",
+        "@type": "CPSV:PublicService",
         "Keel": {
             "@type": "CPSV:Language",
             "@value": "https://riha.eesti.ee/riha/main/kla/keelte_klassifikaator_2013/est"
@@ -2832,10 +2832,10 @@
     },
     {
         "@context": {
-            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1"
+            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1/"
         },
         "@id": "http://www.mkm.ee/teenused/Turvaettevõtja_tunnustamise_taotluse_läbivaatamine",
-        "@type": "PublicService",
+        "@type": "CPSV:PublicService",
         "Keel": {
             "@type": "CPSV:Language",
             "@value": "https://riha.eesti.ee/riha/main/kla/keelte_klassifikaator_2013/est"
@@ -2860,10 +2860,10 @@
     },
     {
         "@context": {
-            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1"
+            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1/"
         },
         "@id": "http://www.mkm.ee/teenused/Sadama_sadamaregistrisse_kandmine_ja_sadamaregistri_kande_muutmine",
-        "@type": "PublicService",
+        "@type": "CPSV:PublicService",
         "Keel": {
             "@type": "CPSV:Language",
             "@value": "https://riha.eesti.ee/riha/main/kla/keelte_klassifikaator_2013/est"
@@ -2888,10 +2888,10 @@
     },
     {
         "@context": {
-            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1"
+            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1/"
         },
         "@id": "http://www.mkm.ee/teenused/Vastutuskindlustuse_ja_muu_rahalise_tagatise_tõendi_taotluse_läbivaatamine",
-        "@type": "PublicService",
+        "@type": "CPSV:PublicService",
         "Keel": {
             "@type": "CPSV:Language",
             "@value": "https://riha.eesti.ee/riha/main/kla/keelte_klassifikaator_2013/est"
@@ -2916,10 +2916,10 @@
     },
     {
         "@context": {
-            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1"
+            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1/"
         },
         "@id": "http://www.mkm.ee/teenused/Ajutise_liputunnistuse_väljastamise",
-        "@type": "PublicService",
+        "@type": "CPSV:PublicService",
         "Keel": {
             "@type": "CPSV:Language",
             "@value": "https://riha.eesti.ee/riha/main/kla/keelte_klassifikaator_2013/est"
@@ -2944,10 +2944,10 @@
     },
     {
         "@context": {
-            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1"
+            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1/"
         },
         "@id": "http://www.mkm.ee/teenused/Laevaregistri_dokumendi_ärakirja_väljastamine ",
-        "@type": "PublicService",
+        "@type": "CPSV:PublicService",
         "Keel": {
             "@type": "CPSV:Language",
             "@value": "https://riha.eesti.ee/riha/main/kla/keelte_klassifikaator_2013/est"
@@ -2976,10 +2976,10 @@
     },
     {
         "@context": {
-            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1"
+            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1/"
         },
         "@id": "http://www.mkm.ee/teenused/Laeva_nime_kooskõlastamine",
-        "@type": "PublicService",
+        "@type": "CPSV:PublicService",
         "Keel": {
             "@type": "CPSV:Language",
             "@value": "https://riha.eesti.ee/riha/main/kla/keelte_klassifikaator_2013/est"
@@ -3004,10 +3004,10 @@
     },
     {
         "@context": {
-            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1"
+            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1/"
         },
         "@id": "http://www.mkm.ee/teenused/Väiksema_kui_50-se_kogumahutavusega_laeva_rannasõidukipri_tunnistuse_ja_kinnituslehe_väljaandmine",
-        "@type": "PublicService",
+        "@type": "CPSV:PublicService",
         "Keel": {
             "@type": "CPSV:Language",
             "@value": "https://riha.eesti.ee/riha/main/kla/keelte_klassifikaator_2013/est"
@@ -3032,10 +3032,10 @@
     },
     {
         "@context": {
-            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1"
+            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1/"
         },
         "@id": "\"http://www.mkm.ee/teenused/Ohutusalase_koolitus,_turvaalase,_tuletõrjealase,_tankeritele_töötamist_tutvustava_koolituse_ja_tankeritel_töötamise_laiendatud_koolituse_tunnistuse_väljaandmine\"",
-        "@type": "PublicService",
+        "@type": "CPSV:PublicService",
         "Keel": {
             "@type": "CPSV:Language",
             "@value": "https://riha.eesti.ee/riha/main/kla/keelte_klassifikaator_2013/est"
@@ -3060,10 +3060,10 @@
     },
     {
         "@context": {
-            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1"
+            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1/"
         },
         "@id": "http://www.mkm.ee/teenused/Elektrimehaaniku_ja_külmutusseadmete_mehaaniku_diplomi_väljastamine",
-        "@type": "PublicService",
+        "@type": "CPSV:PublicService",
         "Keel": {
             "@type": "CPSV:Language",
             "@value": "https://riha.eesti.ee/riha/main/kla/keelte_klassifikaator_2013/est"
@@ -3088,10 +3088,10 @@
     },
     {
         "@context": {
-            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1"
+            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1/"
         },
         "@id": "http://www.mkm.ee/teenused/Väiksema_kui_3000_kW_peamasinate_efektiivse_koguvõimsusega_ning_3000_kW_ja_suurema_peamasinate_efektiivse_koguvõimsusega_mootorlaevade_teise_mehaaniku_diplomite_ja_kinnituslehtede_väljastamine",
-        "@type": "PublicService",
+        "@type": "CPSV:PublicService",
         "Keel": {
             "@type": "CPSV:Language",
             "@value": "https://riha.eesti.ee/riha/main/kla/keelte_klassifikaator_2013/est"
@@ -3116,10 +3116,10 @@
     },
     {
         "@context": {
-            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1"
+            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1/"
         },
         "@id": "http://www.mkm.ee/teenused/Väiksema_kui_3000-se_kogumahutavusega_laeva_ja_3000-se_ja_suurema_kogumahutavusega_laeva_vanemtüürimeeste_diplomite_ja_kinnituslehtede_väljastamine",
-        "@type": "PublicService",
+        "@type": "CPSV:PublicService",
         "Keel": {
             "@type": "CPSV:Language",
             "@value": "https://riha.eesti.ee/riha/main/kla/keelte_klassifikaator_2013/est"
@@ -3144,10 +3144,10 @@
     },
     {
         "@context": {
-            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1"
+            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1/"
         },
         "@id": "http://www.mkm.ee/teenused/Väiksema_kui_750_kW_peamasinate_efektiivse_koguvõimsusega_mootorlaeva_vanemmehaaniku_tunnistuse_ja_kinnituslehe_väljastamine",
-        "@type": "PublicService",
+        "@type": "CPSV:PublicService",
         "Keel": {
             "@type": "CPSV:Language",
             "@value": "https://riha.eesti.ee/riha/main/kla/keelte_klassifikaator_2013/est"
@@ -3172,10 +3172,10 @@
     },
     {
         "@context": {
-            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1"
+            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1/"
         },
         "@id": "http://www.mkm.ee/teenused/Väiksema_kui_500-se_kogumahutavusega_laeva_vahitüürimehe diplomi_ja_kinnituslehe_väljastamine",
-        "@type": "PublicService",
+        "@type": "CPSV:PublicService",
         "Keel": {
             "@type": "CPSV:Language",
             "@value": "https://riha.eesti.ee/riha/main/kla/keelte_klassifikaator_2013/est"
@@ -3200,10 +3200,10 @@
     },
     {
         "@context": {
-            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1"
+            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1/"
         },
         "@id": "http://www.mkm.ee/teenused/Väiksema_kui_500-se_kogumahutavusega_laeva_kapteni diplomi_ja_kinnituslehe_väljastamine",
-        "@type": "PublicService",
+        "@type": "CPSV:PublicService",
         "Keel": {
             "@type": "CPSV:Language",
             "@value": "https://riha.eesti.ee/riha/main/kla/keelte_klassifikaator_2013/est"
@@ -3228,10 +3228,10 @@
     },
     {
         "@context": {
-            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1"
+            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1/"
         },
         "@id": "http://www.mkm.ee/teenused/Väiksema_kui_200-se_kogumahutavusega_laeva_vahitüürimehe_ja_kipri_tunnistuste_ja_kinnituslehtede_väljastamine",
-        "@type": "PublicService",
+        "@type": "CPSV:PublicService",
         "Keel": {
             "@type": "CPSV:Language",
             "@value": "https://riha.eesti.ee/riha/main/kla/keelte_klassifikaator_2013/est"
@@ -3256,10 +3256,10 @@
     },
     {
         "@context": {
-            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1"
+            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1/"
         },
         "@id": "\"http://www.mkm.ee/teenused/Raadiosideoperaatori, piirangutega_raadiosideoperaatori_ja_väikelaeva_raadiosideoperaatori tunnistuste_ja_kinnituslehtede_väljastamine\"",
-        "@type": "PublicService",
+        "@type": "CPSV:PublicService",
         "Keel": {
             "@type": "CPSV:Language",
             "@value": "https://riha.eesti.ee/riha/main/kla/keelte_klassifikaator_2013/est"
@@ -3284,10 +3284,10 @@
     },
     {
         "@context": {
-            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1"
+            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1/"
         },
         "@id": "\"http://www.mkm.ee/teenused/Päästevahendite_ja_valvepaadi_vanema,_kiirvalvepaadi_vanema_ning_päästeparve_vanema_tunnistuse_väljastamine\"",
-        "@type": "PublicService",
+        "@type": "CPSV:PublicService",
         "Keel": {
             "@type": "CPSV:Language",
             "@value": "https://riha.eesti.ee/riha/main/kla/keelte_klassifikaator_2013/est"
@@ -3312,10 +3312,10 @@
     },
     {
         "@context": {
-            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1"
+            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1/"
         },
         "@id": "\"http://www.mkm.ee/teenused/Laevamotoristi,_vanemmotoristi,_laevaelektriku_ning_laeva_külmutusseadmete_masinisti_tunnistuste_väljastamine\"",
-        "@type": "PublicService",
+        "@type": "CPSV:PublicService",
         "Keel": {
             "@type": "CPSV:Language",
             "@value": "https://riha.eesti.ee/riha/main/kla/keelte_klassifikaator_2013/est"
@@ -3340,10 +3340,10 @@
     },
     {
         "@context": {
-            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1"
+            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1/"
         },
         "@id": "\"http://www.mkm.ee/teenused/Madruse,_vahimadruse_ja_vanemmadruse_tunnistuse_väljaandmine\"",
-        "@type": "PublicService",
+        "@type": "CPSV:PublicService",
         "Keel": {
             "@type": "CPSV:Language",
             "@value": "https://riha.eesti.ee/riha/main/kla/keelte_klassifikaator_2013/est"
@@ -3368,10 +3368,10 @@
     },
     {
         "@context": {
-            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1"
+            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1/"
         },
         "@id": "http://www.mkm.ee/teenused/Lootsi_kvalifikatsioonieksami_ja_lootsitasõidu_eksami_läbiviimine_ning_dokumentide_väljastamine",
-        "@type": "PublicService",
+        "@type": "CPSV:PublicService",
         "Keel": {
             "@type": "CPSV:Language",
             "@value": "https://riha.eesti.ee/riha/main/kla/keelte_klassifikaator_2013/est"
@@ -3396,10 +3396,10 @@
     },
     {
         "@context": {
-            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1"
+            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1/"
         },
         "@id": "http://www.mkm.ee/teenused/Laevakoka_tunnistuse_väljastamine",
-        "@type": "PublicService",
+        "@type": "CPSV:PublicService",
         "Keel": {
             "@type": "CPSV:Language",
             "@value": "https://riha.eesti.ee/riha/main/kla/keelte_klassifikaator_2013/est"
@@ -3424,10 +3424,10 @@
     },
     {
         "@context": {
-            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1"
+            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1/"
         },
         "@id": "http://www.mkm.ee/teenused/Väiksema_kui_3000_kW_peamasinate_efektiivse_koguvõimsusega_mootorlaeva_vanemmehaaniku_ning_3000_kW_ja_suurema_peamasinate_efektiivse_koguvõimsusega_mootorlaeva_vanemmehaaniku_diplomite_ja_kinnituslehtede_väljastamine",
-        "@type": "PublicService",
+        "@type": "CPSV:PublicService",
         "Keel": {
             "@type": "CPSV:Language",
             "@value": "https://riha.eesti.ee/riha/main/kla/keelte_klassifikaator_2013/est"
@@ -3452,10 +3452,10 @@
     },
     {
         "@context": {
-            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1"
+            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1/"
         },
         "@id": "http://www.mkm.ee/teenused/500-se_ja_suurema_kogumahutavusega_laeva_vahitüürimehe_diplomi_ja_kinnituslehe_väljastamine",
-        "@type": "PublicService",
+        "@type": "CPSV:PublicService",
         "Keel": {
             "@type": "CPSV:Language",
             "@value": "https://riha.eesti.ee/riha/main/kla/keelte_klassifikaator_2013/est"
@@ -3480,10 +3480,10 @@
     },
     {
         "@context": {
-            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1"
+            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1/"
         },
         "@id": "http://www.mkm.ee/teenused/II_ja_I_klassi_raadioelektrooniku_diplomite_ja_kinnituslehtede_väljastamine",
-        "@type": "PublicService",
+        "@type": "CPSV:PublicService",
         "Keel": {
             "@type": "CPSV:Language",
             "@value": "https://riha.eesti.ee/riha/main/kla/keelte_klassifikaator_2013/est"
@@ -3508,10 +3508,10 @@
     },
     {
         "@context": {
-            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1"
+            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1/"
         },
         "@id": "http://www.mkm.ee/teenused/750_kW_ja_suurema_peamasinate_efektiivse_koguvõimsusega_mootorlaeva_vahimehaaniku_diplomi_ja_kinnituslehe_väljastamine",
-        "@type": "PublicService",
+        "@type": "CPSV:PublicService",
         "Keel": {
             "@type": "CPSV:Language",
             "@value": "https://riha.eesti.ee/riha/main/kla/keelte_klassifikaator_2013/est"
@@ -3536,10 +3536,10 @@
     },
     {
         "@context": {
-            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1"
+            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1/"
         },
         "@id": "http://www.mkm.ee/teenused/Väiksema_kui_3000_kogumahutavusega_laeva_ning_3000_ja_suurema_kogumahutavusega_laeva_kapteni_diplomite_ja_kinnituslehtede_väljastamine",
-        "@type": "PublicService",
+        "@type": "CPSV:PublicService",
         "Keel": {
             "@type": "CPSV:Language",
             "@value": "https://riha.eesti.ee/riha/main/kla/keelte_klassifikaator_2013/est"
@@ -3564,10 +3564,10 @@
     },
     {
         "@context": {
-            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1"
+            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1/"
         },
         "@id": "http://www.mkm.ee/teenused/Teabenõue_Maanteeametile",
-        "@type": "PublicService",
+        "@type": "CPSV:PublicService",
         "Keel": {
             "@type": "CPSV:Language",
             "@value": "https://riha.eesti.ee/riha/main/kla/keelte_klassifikaator_2013/est"
@@ -3596,10 +3596,10 @@
     },
     {
         "@context": {
-            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1"
+            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1/"
         },
         "@id": "http://www.mkm.ee/teenused/Teeregister",
-        "@type": "PublicService",
+        "@type": "CPSV:PublicService",
         "Keel": {
             "@type": "CPSV:Language",
             "@value": "https://riha.eesti.ee/riha/main/kla/keelte_klassifikaator_2013/est"
@@ -3624,10 +3624,10 @@
     },
     {
         "@context": {
-            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1"
+            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1/"
         },
         "@id": "http://www.mkm.ee/teenused/Sõidu-_ja_teooriaeksamile_registreerimine",
-        "@type": "PublicService",
+        "@type": "CPSV:PublicService",
         "Keel": {
             "@type": "CPSV:Language",
             "@value": "https://riha.eesti.ee/riha/main/kla/keelte_klassifikaator_2013/est"
@@ -3656,10 +3656,10 @@
     },
     {
         "@context": {
-            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1"
+            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1/"
         },
         "@id": "http://www.mkm.ee/teenused/Juhiloa_vahetamine",
-        "@type": "PublicService",
+        "@type": "CPSV:PublicService",
         "Keel": {
             "@type": "CPSV:Language",
             "@value": "https://riha.eesti.ee/riha/main/kla/keelte_klassifikaator_2013/est"
@@ -3685,10 +3685,10 @@
     },
     {
         "@context": {
-            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1"
+            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1/"
         },
         "@id": "http://www.mkm.ee/teenused/Juhiloa_asendamine",
-        "@type": "PublicService",
+        "@type": "CPSV:PublicService",
         "Keel": {
             "@type": "CPSV:Language",
             "@value": "https://riha.eesti.ee/riha/main/kla/keelte_klassifikaator_2013/est"
@@ -3713,10 +3713,10 @@
     },
     {
         "@context": {
-            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1"
+            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1/"
         },
         "@id": "http://www.mkm.ee/teenused/Välisriigist_saadud_juhiloa_asendamine",
-        "@type": "PublicService",
+        "@type": "CPSV:PublicService",
         "Keel": {
             "@type": "CPSV:Language",
             "@value": "https://riha.eesti.ee/riha/main/kla/keelte_klassifikaator_2013/est"
@@ -3745,10 +3745,10 @@
     },
     {
         "@context": {
-            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1"
+            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1/"
         },
         "@id": "http://www.mkm.ee/teenused/Registriandmete_muutmine",
-        "@type": "PublicService",
+        "@type": "CPSV:PublicService",
         "Keel": {
             "@type": "CPSV:Language",
             "@value": "https://riha.eesti.ee/riha/main/kla/keelte_klassifikaator_2013/est"
@@ -3778,10 +3778,10 @@
     },
     {
         "@context": {
-            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1"
+            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1/"
         },
         "@id": "http://www.mkm.ee/teenused/Üksiksõiduki_tüübikinnitus",
-        "@type": "PublicService",
+        "@type": "CPSV:PublicService",
         "Keel": {
             "@type": "CPSV:Language",
             "@value": "https://riha.eesti.ee/riha/main/kla/keelte_klassifikaator_2013/est"
@@ -3810,10 +3810,10 @@
     },
     {
         "@context": {
-            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1"
+            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1/"
         },
         "@id": "http://www.mkm.ee/teenused/Üksiktraktori_kinnitus",
-        "@type": "PublicService",
+        "@type": "CPSV:PublicService",
         "Keel": {
             "@type": "CPSV:Language",
             "@value": "https://riha.eesti.ee/riha/main/kla/keelte_klassifikaator_2013/est"
@@ -3842,10 +3842,10 @@
     },
     {
         "@context": {
-            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1"
+            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1/"
         },
         "@id": "http://www.mkm.ee/teenused/Liiklusinfo",
-        "@type": "PublicService",
+        "@type": "CPSV:PublicService",
         "Keel": {
             "@type": "CPSV:Language",
             "@value": "https://riha.eesti.ee/riha/main/kla/keelte_klassifikaator_2013/est"
@@ -3871,10 +3871,10 @@
     },
     {
         "@context": {
-            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1"
+            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1/"
         },
         "@id": "http://www.mkm.ee/teenused/Liiniloa_taotlemine",
-        "@type": "PublicService",
+        "@type": "CPSV:PublicService",
         "Keel": {
             "@type": "CPSV:Language",
             "@value": "https://riha.eesti.ee/riha/main/kla/keelte_klassifikaator_2013/est"
@@ -3899,10 +3899,10 @@
     },
     {
         "@context": {
-            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1"
+            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1/"
         },
         "@id": "http://www.mkm.ee/teenused/Sõiduplaani_muutmine",
-        "@type": "PublicService",
+        "@type": "CPSV:PublicService",
         "Keel": {
             "@type": "CPSV:Language",
             "@value": "https://riha.eesti.ee/riha/main/kla/keelte_klassifikaator_2013/est"
@@ -3927,10 +3927,10 @@
     },
     {
         "@context": {
-            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1"
+            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1/"
         },
         "@id": "http://www.mkm.ee/teenused/Liiniloa_kehtetuks_tunnistamine",
-        "@type": "PublicService",
+        "@type": "CPSV:PublicService",
         "Keel": {
             "@type": "CPSV:Language",
             "@value": "https://riha.eesti.ee/riha/main/kla/keelte_klassifikaator_2013/est"
@@ -3955,10 +3955,10 @@
     },
     {
         "@context": {
-            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1"
+            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1/"
         },
         "@id": "http://www.mkm.ee/teenused/Kokkulepe_tehnovõrgu_ja_-rajatise_ehitamiseks_ja_talumiseks",
-        "@type": "PublicService",
+        "@type": "CPSV:PublicService",
         "Keel": {
             "@type": "CPSV:Language",
             "@value": "https://riha.eesti.ee/riha/main/kla/keelte_klassifikaator_2013/est"
@@ -3983,10 +3983,10 @@
     },
     {
         "@context": {
-            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1"
+            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1/"
         },
         "@id": "http://www.mkm.ee/teenused/Taotlus_teemaale_tehnovõrgu-_ja_rajatise_ehitamiseks_ja_talumiseks_vajaliku_kokkuleppe_sõlmimiseks",
-        "@type": "PublicService",
+        "@type": "CPSV:PublicService",
         "Keel": {
             "@type": "CPSV:Language",
             "@value": "https://riha.eesti.ee/riha/main/kla/keelte_klassifikaator_2013/est"
@@ -4011,10 +4011,10 @@
     },
     {
         "@context": {
-            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1"
+            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1/"
         },
         "@id": "http://www.mkm.ee/teenused/Maanteeinfokeskuse_infoedastusvorm_tööde_ja_piirangute_kohta_riigiteedel",
-        "@type": "PublicService",
+        "@type": "CPSV:PublicService",
         "Keel": {
             "@type": "CPSV:Language",
             "@value": "https://riha.eesti.ee/riha/main/kla/keelte_klassifikaator_2013/est"
@@ -4039,10 +4039,10 @@
     },
     {
         "@context": {
-            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1"
+            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1/"
         },
         "@id": "http://www.mkm.ee/teenused/Loa_taotlemine_teehoiuväliseks_tegevuseks_teemaa-alal",
-        "@type": "PublicService",
+        "@type": "CPSV:PublicService",
         "Keel": {
             "@type": "CPSV:Language",
             "@value": "https://riha.eesti.ee/riha/main/kla/keelte_klassifikaator_2013/est"
@@ -4067,10 +4067,10 @@
     },
     {
         "@context": {
-            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1"
+            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1/"
         },
         "@id": "http://www.mkm.ee/teenused/Liiklusvälise_teabevahendi_paigaldusloa_taotlemine",
-        "@type": "PublicService",
+        "@type": "CPSV:PublicService",
         "Keel": {
             "@type": "CPSV:Language",
             "@value": "https://riha.eesti.ee/riha/main/kla/keelte_klassifikaator_2013/est"
@@ -4095,10 +4095,10 @@
     },
     {
         "@context": {
-            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1"
+            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1/"
         },
         "@id": "http://www.mkm.ee/teenused/Liiklusvälise_teabevahendi_paigaldusloa_taotlemine_riigimaantee_kaitsevööndi",
-        "@type": "PublicService",
+        "@type": "CPSV:PublicService",
         "Keel": {
             "@type": "CPSV:Language",
             "@value": "https://riha.eesti.ee/riha/main/kla/keelte_klassifikaator_2013/est"
@@ -4123,10 +4123,10 @@
     },
     {
         "@context": {
-            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1"
+            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1/"
         },
         "@id": "http://www.mkm.ee/teenused/Liiklusvälise_teabevahendi_paigaldusloa_taotlemine",
-        "@type": "PublicService",
+        "@type": "CPSV:PublicService",
         "Keel": {
             "@type": "CPSV:Language",
             "@value": "https://riha.eesti.ee/riha/main/kla/keelte_klassifikaator_2013/est"
@@ -4151,10 +4151,10 @@
     },
     {
         "@context": {
-            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1"
+            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1/"
         },
         "@id": "http://www.mkm.ee/teenused/Liiklusmärkide_paigaldusluba ",
-        "@type": "PublicService",
+        "@type": "CPSV:PublicService",
         "Keel": {
             "@type": "CPSV:Language",
             "@value": "https://riha.eesti.ee/riha/main/kla/keelte_klassifikaator_2013/est"
@@ -4179,10 +4179,10 @@
     },
     {
         "@context": {
-            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1"
+            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1/"
         },
         "@id": "http://www.mkm.ee/teenused/Suur-_javõi_raskeveose_loa_taotlemine",
-        "@type": "PublicService",
+        "@type": "CPSV:PublicService",
         "Keel": {
             "@type": "CPSV:Language",
             "@value": "https://riha.eesti.ee/riha/main/kla/keelte_klassifikaator_2013/est"
@@ -4207,10 +4207,10 @@
     },
     {
         "@context": {
-            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1"
+            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1/"
         },
         "@id": "http://www.mkm.ee/teenused/Koormuspiirangu_sõiduloa_taotlemine",
-        "@type": "PublicService",
+        "@type": "CPSV:PublicService",
         "Keel": {
             "@type": "CPSV:Language",
             "@value": "https://riha.eesti.ee/riha/main/kla/keelte_klassifikaator_2013/est"
@@ -4235,10 +4235,10 @@
     },
     {
         "@context": {
-            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1"
+            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1/"
         },
         "@id": "http://www.mkm.ee/teenused/Sõiduki_võõrandamisest_teatamine",
-        "@type": "PublicService",
+        "@type": "CPSV:PublicService",
         "Keel": {
             "@type": "CPSV:Language",
             "@value": "https://riha.eesti.ee/riha/main/kla/keelte_klassifikaator_2013/est"
@@ -4263,10 +4263,10 @@
     },
     {
         "@context": {
-            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1"
+            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1/"
         },
         "@id": "http://www.mkm.ee/teenused/Juhiloa_loovutamine",
-        "@type": "PublicService",
+        "@type": "CPSV:PublicService",
         "Keel": {
             "@type": "CPSV:Language",
             "@value": "https://riha.eesti.ee/riha/main/kla/keelte_klassifikaator_2013/est"
@@ -4291,10 +4291,10 @@
     },
     {
         "@context": {
-            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1"
+            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1/"
         },
         "@id": "http://www.mkm.ee/teenused/Juhiloa_kaotusestvargusesthävimisest_teatamine",
-        "@type": "PublicService",
+        "@type": "CPSV:PublicService",
         "Keel": {
             "@type": "CPSV:Language",
             "@value": "https://riha.eesti.ee/riha/main/kla/keelte_klassifikaator_2013/est"
@@ -4319,10 +4319,10 @@
     },
     {
         "@context": {
-            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1"
+            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1/"
         },
         "@id": "http://www.mkm.ee/teenused/Vaide_esitamine_Maanteeametile",
-        "@type": "PublicService",
+        "@type": "CPSV:PublicService",
         "Keel": {
             "@type": "CPSV:Language",
             "@value": "https://riha.eesti.ee/riha/main/kla/keelte_klassifikaator_2013/est"
@@ -4347,10 +4347,10 @@
     },
     {
         "@context": {
-            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1"
+            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1/"
         },
         "@id": "http://www.mkm.ee/teenused/Juhiloa_kehtivuse_päring",
-        "@type": "PublicService",
+        "@type": "CPSV:PublicService",
         "Keel": {
             "@type": "CPSV:Language",
             "@value": "https://riha.eesti.ee/riha/main/kla/keelte_klassifikaator_2013/est"
@@ -4376,10 +4376,10 @@
     },
     {
         "@context": {
-            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1"
+            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1/"
         },
         "@id": "http://www.mkm.ee/teenused/Sõiduki_omanikuvahetus",
-        "@type": "PublicService",
+        "@type": "CPSV:PublicService",
         "Keel": {
             "@type": "CPSV:Language",
             "@value": "https://riha.eesti.ee/riha/main/kla/keelte_klassifikaator_2013/est"
@@ -4405,10 +4405,10 @@
     },
     {
         "@context": {
-            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1"
+            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1/"
         },
         "@id": "http://www.mkm.ee/teenused/Sõiduki_ajutine_kustutamine",
-        "@type": "PublicService",
+        "@type": "CPSV:PublicService",
         "Keel": {
             "@type": "CPSV:Language",
             "@value": "https://riha.eesti.ee/riha/main/kla/keelte_klassifikaator_2013/est"
@@ -4434,10 +4434,10 @@
     },
     {
         "@context": {
-            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1"
+            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1/"
         },
         "@id": "http://www.mkm.ee/teenused/Sõiduki_kasutajate_muutmine",
-        "@type": "PublicService",
+        "@type": "CPSV:PublicService",
         "Keel": {
             "@type": "CPSV:Language",
             "@value": "https://riha.eesti.ee/riha/main/kla/keelte_klassifikaator_2013/est"
@@ -4463,10 +4463,10 @@
     },
     {
         "@context": {
-            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1"
+            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1/"
         },
         "@id": "http://www.mkm.ee/teenused/Numbrimärgi_duplikaadi_tellimine",
-        "@type": "PublicService",
+        "@type": "CPSV:PublicService",
         "Keel": {
             "@type": "CPSV:Language",
             "@value": "https://riha.eesti.ee/riha/main/kla/keelte_klassifikaator_2013/est"
@@ -4492,10 +4492,10 @@
     },
     {
         "@context": {
-            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1"
+            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1/"
         },
         "@id": "http://www.mkm.ee/teenused/Registreerimistunnistuste_tellimine",
-        "@type": "PublicService",
+        "@type": "CPSV:PublicService",
         "Keel": {
             "@type": "CPSV:Language",
             "@value": "https://riha.eesti.ee/riha/main/kla/keelte_klassifikaator_2013/est"
@@ -4521,10 +4521,10 @@
     },
     {
         "@context": {
-            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1"
+            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1/"
         },
         "@id": "http://www.mkm.ee/teenused/Reisiplaneerija",
-        "@type": "PublicService",
+        "@type": "CPSV:PublicService",
         "Keel": {
             "@type": "CPSV:Language",
             "@value": "https://riha.eesti.ee/riha/main/kla/keelte_klassifikaator_2013/est"
@@ -4550,10 +4550,10 @@
     },
     {
         "@context": {
-            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1"
+            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1/"
         },
         "@id": "http://www.mkm.ee/teenused/Liiniloa_kehtivuse_kontroll",
-        "@type": "PublicService",
+        "@type": "CPSV:PublicService",
         "Keel": {
             "@type": "CPSV:Language",
             "@value": "https://riha.eesti.ee/riha/main/kla/keelte_klassifikaator_2013/est"
@@ -4578,10 +4578,10 @@
     },
     {
         "@context": {
-            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1"
+            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1/"
         },
         "@id": "\"http://www.mkm.ee/teenused/Teehoiutööde_tegevusload_ja_pädevustunnistused,taotluste_vormid,_nimekiri\"",
-        "@type": "PublicService",
+        "@type": "CPSV:PublicService",
         "Keel": {
             "@type": "CPSV:Language",
             "@value": "https://riha.eesti.ee/riha/main/kla/keelte_klassifikaator_2013/est"
@@ -4606,10 +4606,10 @@
     },
     {
         "@context": {
-            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1"
+            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1/"
         },
         "@id": "http://www.mkm.ee/teenused/Teooria_proovieksam",
-        "@type": "PublicService",
+        "@type": "CPSV:PublicService",
         "Keel": {
             "@type": "CPSV:Language",
             "@value": "https://riha.eesti.ee/riha/main/kla/keelte_klassifikaator_2013/est"
@@ -4634,10 +4634,10 @@
     },
     {
         "@context": {
-            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1"
+            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1/"
         },
         "@id": "http://www.mkm.ee/teenused/Teabenõue_Tehnilise_Järelevalve_Ametile",
-        "@type": "PublicService",
+        "@type": "CPSV:PublicService",
         "Keel": {
             "@type": "CPSV:Language",
             "@value": "https://riha.eesti.ee/riha/main/kla/keelte_klassifikaator_2013/est"
@@ -4662,10 +4662,10 @@
     },
     {
         "@context": {
-            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1"
+            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1/"
         },
         "@id": "http://www.mkm.ee/teenused/Märgukiriselgitustaotlus_Tehnilise_Järelevalve_Ametile",
-        "@type": "PublicService",
+        "@type": "CPSV:PublicService",
         "Keel": {
             "@type": "CPSV:Language",
             "@value": "https://riha.eesti.ee/riha/main/kla/keelte_klassifikaator_2013/est"
@@ -4694,10 +4694,10 @@
     },
     {
         "@context": {
-            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1"
+            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1/"
         },
         "@id": "http://www.mkm.ee/teenused/Õnnetusjuhtumite_ja_avariide_kohta_teatiste_esitamine",
-        "@type": "PublicService",
+        "@type": "CPSV:PublicService",
         "Keel": {
             "@type": "CPSV:Language",
             "@value": "https://riha.eesti.ee/riha/main/kla/keelte_klassifikaator_2013/est"
@@ -4722,10 +4722,10 @@
     },
     {
         "@context": {
-            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1"
+            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1/"
         },
         "@id": "http://www.mkm.ee/teenused/Telefoninumbri_kuuluvuse_päringu",
-        "@type": "PublicService",
+        "@type": "CPSV:PublicService",
         "Keel": {
             "@type": "CPSV:Language",
             "@value": "https://riha.eesti.ee/riha/main/kla/keelte_klassifikaator_2013/est"
@@ -4750,10 +4750,10 @@
     },
     {
         "@context": {
-            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1"
+            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1/"
         },
         "@id": "http://www.mkm.ee/teenused/Lõhkematerjalide_ja_pürotehnika_lubade_taotlemine",
-        "@type": "PublicService",
+        "@type": "CPSV:PublicService",
         "Keel": {
             "@type": "CPSV:Language",
             "@value": "https://riha.eesti.ee/riha/main/kla/keelte_klassifikaator_2013/est"
@@ -4778,10 +4778,10 @@
     },
     {
         "@context": {
-            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1"
+            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1/"
         },
         "@id": "http://www.mkm.ee/teenused/Gaasipaigaldise_lubade_taotlemine",
-        "@type": "PublicService",
+        "@type": "CPSV:PublicService",
         "Keel": {
             "@type": "CPSV:Language",
             "@value": "https://riha.eesti.ee/riha/main/kla/keelte_klassifikaator_2013/est"
@@ -4806,10 +4806,10 @@
     },
     {
         "@context": {
-            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1"
+            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1/"
         },
         "@id": "http://www.mkm.ee/teenused/Surveseade_lubade_taotlemine",
-        "@type": "PublicService",
+        "@type": "CPSV:PublicService",
         "Keel": {
             "@type": "CPSV:Language",
             "@value": "https://riha.eesti.ee/riha/main/kla/keelte_klassifikaator_2013/est"
@@ -4834,10 +4834,10 @@
     },
     {
         "@context": {
-            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1"
+            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1/"
         },
         "@id": "http://www.mkm.ee/teenused/Lift_ja_köistee_lubade_taotlemine",
-        "@type": "PublicService",
+        "@type": "CPSV:PublicService",
         "Keel": {
             "@type": "CPSV:Language",
             "@value": "https://riha.eesti.ee/riha/main/kla/keelte_klassifikaator_2013/est"
@@ -4862,10 +4862,10 @@
     },
     {
         "@context": {
-            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1"
+            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1/"
         },
         "@id": "http://www.mkm.ee/teenused/Masina_lubade_taotlemine",
-        "@type": "PublicService",
+        "@type": "CPSV:PublicService",
         "Keel": {
             "@type": "CPSV:Language",
             "@value": "https://riha.eesti.ee/riha/main/kla/keelte_klassifikaator_2013/est"
@@ -4890,10 +4890,10 @@
     },
     {
         "@context": {
-            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1"
+            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1/"
         },
         "@id": "http://www.mkm.ee/teenused/Tehnilise_kontrolli_teostaja_lubade_taotlemine",
-        "@type": "PublicService",
+        "@type": "CPSV:PublicService",
         "Keel": {
             "@type": "CPSV:Language",
             "@value": "https://riha.eesti.ee/riha/main/kla/keelte_klassifikaator_2013/est"
@@ -4918,10 +4918,10 @@
     },
     {
         "@context": {
-            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1"
+            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1/"
         },
         "@id": "http://www.mkm.ee/teenused/Elektripaigaldise_registreerimine",
-        "@type": "PublicService",
+        "@type": "CPSV:PublicService",
         "Keel": {
             "@type": "CPSV:Language",
             "@value": "https://riha.eesti.ee/riha/main/kla/keelte_klassifikaator_2013/est"
@@ -4946,10 +4946,10 @@
     },
     {
         "@context": {
-            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1"
+            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1/"
         },
         "@id": "http://www.mkm.ee/teenused/Köistee_paigaldiste_registreerimine",
-        "@type": "PublicService",
+        "@type": "CPSV:PublicService",
         "Keel": {
             "@type": "CPSV:Language",
             "@value": "https://riha.eesti.ee/riha/main/kla/keelte_klassifikaator_2013/est"
@@ -4974,10 +4974,10 @@
     },
     {
         "@context": {
-            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1"
+            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1/"
         },
         "@id": "http://www.mkm.ee/teenused/Küttegaasi_paigaldiste_registreerimine",
-        "@type": "PublicService",
+        "@type": "CPSV:PublicService",
         "Keel": {
             "@type": "CPSV:Language",
             "@value": "https://riha.eesti.ee/riha/main/kla/keelte_klassifikaator_2013/est"
@@ -5002,10 +5002,10 @@
     },
     {
         "@context": {
-            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1"
+            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1/"
         },
         "@id": "http://www.mkm.ee/teenused/Liftide_registreerimine",
-        "@type": "PublicService",
+        "@type": "CPSV:PublicService",
         "Keel": {
             "@type": "CPSV:Language",
             "@value": "https://riha.eesti.ee/riha/main/kla/keelte_klassifikaator_2013/est"
@@ -5030,10 +5030,10 @@
     },
     {
         "@context": {
-            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1"
+            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1/"
         },
         "@id": "http://www.mkm.ee/teenused/Masinate_registreerimine",
-        "@type": "PublicService",
+        "@type": "CPSV:PublicService",
         "Keel": {
             "@type": "CPSV:Language",
             "@value": "https://riha.eesti.ee/riha/main/kla/keelte_klassifikaator_2013/est"
@@ -5058,10 +5058,10 @@
     },
     {
         "@context": {
-            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1"
+            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1/"
         },
         "@id": "http://www.mkm.ee/teenused/Raudteerajatiste_registreerimine",
-        "@type": "PublicService",
+        "@type": "CPSV:PublicService",
         "Keel": {
             "@type": "CPSV:Language",
             "@value": "https://riha.eesti.ee/riha/main/kla/keelte_klassifikaator_2013/est"
@@ -5086,10 +5086,10 @@
     },
     {
         "@context": {
-            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1"
+            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1/"
         },
         "@id": "http://www.mkm.ee/teenused/Raudteeveeremi_registreerimine",
-        "@type": "PublicService",
+        "@type": "CPSV:PublicService",
         "Keel": {
             "@type": "CPSV:Language",
             "@value": "https://riha.eesti.ee/riha/main/kla/keelte_klassifikaator_2013/est"
@@ -5114,10 +5114,10 @@
     },
     {
         "@context": {
-            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1"
+            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1/"
         },
         "@id": "http://www.mkm.ee/teenused/Surveseadmete_registreerimine",
-        "@type": "PublicService",
+        "@type": "CPSV:PublicService",
         "Keel": {
             "@type": "CPSV:Language",
             "@value": "https://riha.eesti.ee/riha/main/kla/keelte_klassifikaator_2013/est"
@@ -5142,10 +5142,10 @@
     },
     {
         "@context": {
-            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1"
+            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1/"
         },
         "@id": "http://www.mkm.ee/teenused/Kaldaga_püsivalt_ühendamata_ehitiste_projekteerimistingimuste_taotlus",
-        "@type": "PublicService",
+        "@type": "CPSV:PublicService",
         "Keel": {
             "@type": "CPSV:Language",
             "@value": "https://riha.eesti.ee/riha/main/kla/keelte_klassifikaator_2013/est"
@@ -5170,10 +5170,10 @@
     },
     {
         "@context": {
-            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1"
+            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1/"
         },
         "@id": "http://www.mkm.ee/teenused/Lõhkematerjali_käitlemise_korraldaja_ja_pürotehnilise_toote_käitlemise_korraldaja_pädevuseksam",
-        "@type": "PublicService",
+        "@type": "CPSV:PublicService",
         "Keel": {
             "@type": "CPSV:Language",
             "@value": "https://riha.eesti.ee/riha/main/kla/keelte_klassifikaator_2013/est"
@@ -5198,10 +5198,10 @@
     },
     {
         "@context": {
-            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1"
+            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1/"
         },
         "@id": "http://www.mkm.ee/teenused/Lõhkematerjali_käitlemise_korraldaja_ja_pürotehnilise_toote_käitlemise_korraldaja_pädevustunnistuse_pikendamine",
-        "@type": "PublicService",
+        "@type": "CPSV:PublicService",
         "Keel": {
             "@type": "CPSV:Language",
             "@value": "https://riha.eesti.ee/riha/main/kla/keelte_klassifikaator_2013/est"
@@ -5226,10 +5226,10 @@
     },
     {
         "@context": {
-            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1"
+            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1/"
         },
         "@id": "http://www.mkm.ee/teenused/Lõhkematerjali_veoloa_taotlemine",
-        "@type": "PublicService",
+        "@type": "CPSV:PublicService",
         "Keel": {
             "@type": "CPSV:Language",
             "@value": "https://riha.eesti.ee/riha/main/kla/keelte_klassifikaator_2013/est"
@@ -5254,10 +5254,10 @@
     },
     {
         "@context": {
-            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1"
+            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1/"
         },
         "@id": "http://www.mkm.ee/teenused/Ohtlike_kemikaalide_tegevusloa_taotlemine",
-        "@type": "PublicService",
+        "@type": "CPSV:PublicService",
         "Keel": {
             "@type": "CPSV:Language",
             "@value": "https://riha.eesti.ee/riha/main/kla/keelte_klassifikaator_2013/est"
@@ -5282,10 +5282,10 @@
     },
     {
         "@context": {
-            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1"
+            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1/"
         },
         "@id": "http://www.mkm.ee/teenused/Ohtlike_kemikaalide_teabeleht",
-        "@type": "PublicService",
+        "@type": "CPSV:PublicService",
         "Keel": {
             "@type": "CPSV:Language",
             "@value": "https://riha.eesti.ee/riha/main/kla/keelte_klassifikaator_2013/est"
@@ -5310,10 +5310,10 @@
     },
     {
         "@context": {
-            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1"
+            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1/"
         },
         "@id": "http://www.mkm.ee/teenused/Mõõtevahendi_siseriikliku_tüübikinnitustunnistuse_taotlemine",
-        "@type": "PublicService",
+        "@type": "CPSV:PublicService",
         "Keel": {
             "@type": "CPSV:Language",
             "@value": "https://riha.eesti.ee/riha/main/kla/keelte_klassifikaator_2013/est"
@@ -5338,10 +5338,10 @@
     },
     {
         "@context": {
-            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1"
+            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1/"
         },
         "@id": "http://www.mkm.ee/teenused/Mõõtevahendi_taadelduks_tunnistamine",
-        "@type": "PublicService",
+        "@type": "CPSV:PublicService",
         "Keel": {
             "@type": "CPSV:Language",
             "@value": "https://riha.eesti.ee/riha/main/kla/keelte_klassifikaator_2013/est"
@@ -5366,10 +5366,10 @@
     },
     {
         "@context": {
-            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1"
+            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1/"
         },
         "@id": "\"http://www.mkm.ee/teenused/Teavitamine_ajutisel_tegutsemisel_surveseadmetööde,_gaasitööde,_tõsteseadmetööde,_masinatööde,_gaasipaigaldise_ehitamise,_lifti_paigaldamise_ja_tehnilise_kontrolli_tegevusalal\"",
-        "@type": "PublicService",
+        "@type": "CPSV:PublicService",
         "Keel": {
             "@type": "CPSV:Language",
             "@value": "https://riha.eesti.ee/riha/main/kla/keelte_klassifikaator_2013/est"
@@ -5394,10 +5394,10 @@
     },
     {
         "@context": {
-            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1"
+            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1/"
         },
         "@id": "http://www.mkm.ee/teenused/Numbrilubade_väljastamine",
-        "@type": "PublicService",
+        "@type": "CPSV:PublicService",
         "Keel": {
             "@type": "CPSV:Language",
             "@value": "https://riha.eesti.ee/riha/main/kla/keelte_klassifikaator_2013/est"
@@ -5422,10 +5422,10 @@
     },
     {
         "@context": {
-            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1"
+            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1/"
         },
         "@id": "http://www.mkm.ee/teenused/Amatöörraadiojaama_tööloa_taotlemine",
-        "@type": "PublicService",
+        "@type": "CPSV:PublicService",
         "Keel": {
             "@type": "CPSV:Language",
             "@value": "https://riha.eesti.ee/riha/main/kla/keelte_klassifikaator_2013/est"
@@ -5450,10 +5450,10 @@
     },
     {
         "@context": {
-            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1"
+            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1/"
         },
         "@id": "http://www.mkm.ee/teenused/Sagedusloa_taotlemine",
-        "@type": "PublicService",
+        "@type": "CPSV:PublicService",
         "Keel": {
             "@type": "CPSV:Language",
             "@value": "https://riha.eesti.ee/riha/main/kla/keelte_klassifikaator_2013/est"
@@ -5478,10 +5478,10 @@
     },
     {
         "@context": {
-            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1"
+            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1/"
         },
         "@id": "http://www.mkm.ee/teenused/Ühise_sagedusloa_taotlemine",
-        "@type": "PublicService",
+        "@type": "CPSV:PublicService",
         "Keel": {
             "@type": "CPSV:Language",
             "@value": "https://riha.eesti.ee/riha/main/kla/keelte_klassifikaator_2013/est"
@@ -5506,10 +5506,10 @@
     },
     {
         "@context": {
-            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1"
+            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1/"
         },
         "@id": "http://www.mkm.ee/teenused/Veesõiduki_raadioloa_taotlemine",
-        "@type": "PublicService",
+        "@type": "CPSV:PublicService",
         "Keel": {
             "@type": "CPSV:Language",
             "@value": "https://riha.eesti.ee/riha/main/kla/keelte_klassifikaator_2013/est"
@@ -5534,10 +5534,10 @@
     },
     {
         "@context": {
-            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1"
+            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1/"
         },
         "@id": "http://www.mkm.ee/teenused/Õhusõiduki_raadioloa_taotlemine",
-        "@type": "PublicService",
+        "@type": "CPSV:PublicService",
         "Keel": {
             "@type": "CPSV:Language",
             "@value": "https://riha.eesti.ee/riha/main/kla/keelte_klassifikaator_2013/est"
@@ -5562,10 +5562,10 @@
     },
     {
         "@context": {
-            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1"
+            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1/"
         },
         "@id": "http://www.mkm.ee/teenused/Sagedusloa_taotlemine_kosmoseside_maajaamale",
-        "@type": "PublicService",
+        "@type": "CPSV:PublicService",
         "Keel": {
             "@type": "CPSV:Language",
             "@value": "https://riha.eesti.ee/riha/main/kla/keelte_klassifikaator_2013/est"
@@ -5590,10 +5590,10 @@
     },
     {
         "@context": {
-            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1"
+            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1/"
         },
         "@id": "http://www.mkm.ee/teenused/Raadiosageduste_kasutamise_õiguse_üleandmise_taotlemine",
-        "@type": "PublicService",
+        "@type": "CPSV:PublicService",
         "Keel": {
             "@type": "CPSV:Language",
             "@value": "https://riha.eesti.ee/riha/main/kla/keelte_klassifikaator_2013/est"
@@ -5618,10 +5618,10 @@
     },
     {
         "@context": {
-            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1"
+            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1/"
         },
         "@id": "http://www.mkm.ee/teenused/Raadiosageduste_kasutamise_õiguse_üleandmine",
-        "@type": "PublicService",
+        "@type": "CPSV:PublicService",
         "Keel": {
             "@type": "CPSV:Language",
             "@value": "https://riha.eesti.ee/riha/main/kla/keelte_klassifikaator_2013/est"
@@ -5646,10 +5646,10 @@
     },
     {
         "@context": {
-            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1"
+            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1/"
         },
         "@id": "http://www.mkm.ee/teenused/Numbriloa_taotlemine",
-        "@type": "PublicService",
+        "@type": "CPSV:PublicService",
         "Keel": {
             "@type": "CPSV:Language",
             "@value": "https://riha.eesti.ee/riha/main/kla/keelte_klassifikaator_2013/est"
@@ -5674,10 +5674,10 @@
     },
     {
         "@context": {
-            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1"
+            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1/"
         },
         "@id": "http://www.mkm.ee/teenused/116_numeratsioonialas_teenuse_lühinumbri_taotlemine",
-        "@type": "PublicService",
+        "@type": "CPSV:PublicService",
         "Keel": {
             "@type": "CPSV:Language",
             "@value": "https://riha.eesti.ee/riha/main/kla/keelte_klassifikaator_2013/est"
@@ -5702,10 +5702,10 @@
     },
     {
         "@context": {
-            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1"
+            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1/"
         },
         "@id": "http://www.mkm.ee/teenused/Elektroonilise_side alustamisest_teatamine",
-        "@type": "PublicService",
+        "@type": "CPSV:PublicService",
         "Keel": {
             "@type": "CPSV:Language",
             "@value": "https://riha.eesti.ee/riha/main/kla/keelte_klassifikaator_2013/est"
@@ -5730,10 +5730,10 @@
     },
     {
         "@context": {
-            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1"
+            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1/"
         },
         "@id": "http://www.mkm.ee/teenused/Mereside_arvelduskeskuse_registreerimine",
-        "@type": "PublicService",
+        "@type": "CPSV:PublicService",
         "Keel": {
             "@type": "CPSV:Language",
             "@value": "https://riha.eesti.ee/riha/main/kla/keelte_klassifikaator_2013/est"
@@ -5758,10 +5758,10 @@
     },
     {
         "@context": {
-            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1"
+            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1/"
         },
         "@id": "http://www.mkm.ee/teenused/Ehitusloa_taotlemine",
-        "@type": "PublicService",
+        "@type": "CPSV:PublicService",
         "Keel": {
             "@type": "CPSV:Language",
             "@value": "https://riha.eesti.ee/riha/main/kla/keelte_klassifikaator_2013/est"
@@ -5786,10 +5786,10 @@
     },
     {
         "@context": {
-            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1"
+            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1/"
         },
         "@id": "http://www.mkm.ee/teenused/Ehitamise_alustamise_teatis",
-        "@type": "PublicService",
+        "@type": "CPSV:PublicService",
         "Keel": {
             "@type": "CPSV:Language",
             "@value": "https://riha.eesti.ee/riha/main/kla/keelte_klassifikaator_2013/est"
@@ -5814,10 +5814,10 @@
     },
     {
         "@context": {
-            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1"
+            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1/"
         },
         "@id": "http://www.mkm.ee/teenused/Kasutusloa_taotlemine",
-        "@type": "PublicService",
+        "@type": "CPSV:PublicService",
         "Keel": {
             "@type": "CPSV:Language",
             "@value": "https://riha.eesti.ee/riha/main/kla/keelte_klassifikaator_2013/est"
@@ -5842,10 +5842,10 @@
     },
     {
         "@context": {
-            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1"
+            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1/"
         },
         "@id": "http://www.mkm.ee/teenused/Ehitise_teatis",
-        "@type": "PublicService",
+        "@type": "CPSV:PublicService",
         "Keel": {
             "@type": "CPSV:Language",
             "@value": "https://riha.eesti.ee/riha/main/kla/keelte_klassifikaator_2013/est"
@@ -5870,10 +5870,10 @@
     },
     {
         "@context": {
-            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1"
+            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1/"
         },
         "@id": "http://www.mkm.ee/teenused/Raudtee-ehituse_kirjalik_nõusoleku_taotlemine",
-        "@type": "PublicService",
+        "@type": "CPSV:PublicService",
         "Keel": {
             "@type": "CPSV:Language",
             "@value": "https://riha.eesti.ee/riha/main/kla/keelte_klassifikaator_2013/est"
@@ -5898,10 +5898,10 @@
     },
     {
         "@context": {
-            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1"
+            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1/"
         },
         "@id": "http://www.mkm.ee/teenused/Vedurijuhiloa_taotlemine",
-        "@type": "PublicService",
+        "@type": "CPSV:PublicService",
         "Keel": {
             "@type": "CPSV:Language",
             "@value": "https://riha.eesti.ee/riha/main/kla/keelte_klassifikaator_2013/est"
@@ -5926,10 +5926,10 @@
     },
     {
         "@context": {
-            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1"
+            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1/"
         },
         "@id": "http://www.mkm.ee/teenused/Ohutustunnistuse_taotlemine",
-        "@type": "PublicService",
+        "@type": "CPSV:PublicService",
         "Keel": {
             "@type": "CPSV:Language",
             "@value": "https://riha.eesti.ee/riha/main/kla/keelte_klassifikaator_2013/est"
@@ -5954,10 +5954,10 @@
     },
     {
         "@context": {
-            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1"
+            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1/"
         },
         "@id": "http://www.mkm.ee/teenused/Kasutuselevõtuloa_saanud_raudteesõidukite_registreerimine",
-        "@type": "PublicService",
+        "@type": "CPSV:PublicService",
         "Keel": {
             "@type": "CPSV:Language",
             "@value": "https://riha.eesti.ee/riha/main/kla/keelte_klassifikaator_2013/est"
@@ -5982,10 +5982,10 @@
     },
     {
         "@context": {
-            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1"
+            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1/"
         },
         "@id": "http://www.mkm.ee/teenused/Raudtee_järelevalve_aruandlus",
-        "@type": "PublicService",
+        "@type": "CPSV:PublicService",
         "Keel": {
             "@type": "CPSV:Language",
             "@value": "https://riha.eesti.ee/riha/main/kla/keelte_klassifikaator_2013/est"
@@ -6010,10 +6010,10 @@
     },
     {
         "@context": {
-            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1"
+            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1/"
         },
         "@id": "http://www.mkm.ee/teenused/ID-kaardi_baastarkvara",
-        "@type": "PublicService",
+        "@type": "CPSV:PublicService",
         "Keel": {
             "@type": "CPSV:Language",
             "@value": "https://riha.eesti.ee/riha/main/kla/keelte_klassifikaator_2013/est"
@@ -6038,10 +6038,10 @@
     },
     {
         "@context": {
-            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1"
+            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1/"
         },
         "@id": "http://www.mkm.ee/teenused/ID-kaardi_abikeskuse teenuse_tagamine",
-        "@type": "PublicService",
+        "@type": "CPSV:PublicService",
         "Keel": {
             "@type": "CPSV:Language",
             "@value": "https://riha.eesti.ee/riha/main/kla/keelte_klassifikaator_2013/est"
@@ -6066,10 +6066,10 @@
     },
     {
         "@context": {
-            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1"
+            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1/"
         },
         "@id": "http://www.mkm.ee/teenused/Välismaiste_e-identiteetide_kasutamiseks_vajalike_teenuste_platvorm ",
-        "@type": "PublicService",
+        "@type": "CPSV:PublicService",
         "Keel": {
             "@type": "CPSV:Language",
             "@value": "https://riha.eesti.ee/riha/main/kla/keelte_klassifikaator_2013/est"
@@ -6094,10 +6094,10 @@
     },
     {
         "@context": {
-            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1"
+            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1/"
         },
         "@id": "http://www.mkm.ee/teenused/RIHA_kooskõlastamine",
-        "@type": "PublicService",
+        "@type": "CPSV:PublicService",
         "Keel": {
             "@type": "CPSV:Language",
             "@value": "https://riha.eesti.ee/riha/main/kla/keelte_klassifikaator_2013/est"
@@ -6122,10 +6122,10 @@
     },
     {
         "@context": {
-            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1"
+            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1/"
         },
         "@id": "http://www.mkm.ee/teenused/Liitumine_X-teega",
-        "@type": "PublicService",
+        "@type": "CPSV:PublicService",
         "Keel": {
             "@type": "CPSV:Language",
             "@value": "https://riha.eesti.ee/riha/main/kla/keelte_klassifikaator_2013/est"
@@ -6150,10 +6150,10 @@
     },
     {
         "@context": {
-            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1"
+            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1/"
         },
         "@id": "http://www.mkm.ee/teenused/Liitumine_DVK-ga",
-        "@type": "PublicService",
+        "@type": "CPSV:PublicService",
         "Keel": {
             "@type": "CPSV:Language",
             "@value": "https://riha.eesti.ee/riha/main/kla/keelte_klassifikaator_2013/est"
@@ -6178,10 +6178,10 @@
     },
     {
         "@context": {
-            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1"
+            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1/"
         },
         "@id": "http://www.mkm.ee/teenused/BI_komponentide_majutus",
-        "@type": "PublicService",
+        "@type": "CPSV:PublicService",
         "Keel": {
             "@type": "CPSV:Language",
             "@value": "https://riha.eesti.ee/riha/main/kla/keelte_klassifikaator_2013/est"
@@ -6210,10 +6210,10 @@
     },
     {
         "@context": {
-            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1"
+            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1/"
         },
         "@id": "http://www.mkm.ee/teenused/Hostelteenus",
-        "@type": "PublicService",
+        "@type": "CPSV:PublicService",
         "Keel": {
             "@type": "CPSV:Language",
             "@value": "https://riha.eesti.ee/riha/main/kla/keelte_klassifikaator_2013/est"
@@ -6242,10 +6242,10 @@
     },
     {
         "@context": {
-            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1"
+            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1/"
         },
         "@id": "http://www.mkm.ee/teenused/Varuvõimsus",
-        "@type": "PublicService",
+        "@type": "CPSV:PublicService",
         "Keel": {
             "@type": "CPSV:Language",
             "@value": "https://riha.eesti.ee/riha/main/kla/keelte_klassifikaator_2013/est"
@@ -6274,10 +6274,10 @@
     },
     {
         "@context": {
-            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1"
+            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1/"
         },
         "@id": "http://www.mkm.ee/teenused/Digitaalne_arhiiv",
-        "@type": "PublicService",
+        "@type": "CPSV:PublicService",
         "Keel": {
             "@type": "CPSV:Language",
             "@value": "https://riha.eesti.ee/riha/main/kla/keelte_klassifikaator_2013/est"
@@ -6306,10 +6306,10 @@
     },
     {
         "@context": {
-            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1"
+            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1/"
         },
         "@id": "http://www.mkm.ee/teenused/Inkubatsioon_ehk_uue_teenuse_majutamine_juurutamisfaasis",
-        "@type": "PublicService",
+        "@type": "CPSV:PublicService",
         "Keel": {
             "@type": "CPSV:Language",
             "@value": "https://riha.eesti.ee/riha/main/kla/keelte_klassifikaator_2013/est"
@@ -6338,10 +6338,10 @@
     },
     {
         "@context": {
-            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1"
+            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1/"
         },
         "@id": "http://www.mkm.ee/teenused/Autentimisteenus",
-        "@type": "PublicService",
+        "@type": "CPSV:PublicService",
         "Keel": {
             "@type": "CPSV:Language",
             "@value": "https://riha.eesti.ee/riha/main/kla/keelte_klassifikaator_2013/est"
@@ -6370,10 +6370,10 @@
     },
     {
         "@context": {
-            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1"
+            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1/"
         },
         "@id": "http://www.mkm.ee/teenused/Ametlik_@eesti.ee_postisüsteem",
-        "@type": "PublicService",
+        "@type": "CPSV:PublicService",
         "Keel": {
             "@type": "CPSV:Language",
             "@value": "https://riha.eesti.ee/riha/main/kla/keelte_klassifikaator_2013/est"
@@ -6402,10 +6402,10 @@
     },
     {
         "@context": {
-            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1"
+            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1/"
         },
         "@id": "http://www.mkm.ee/teenused/Elektroonilised_vormid",
-        "@type": "PublicService",
+        "@type": "CPSV:PublicService",
         "Keel": {
             "@type": "CPSV:Language",
             "@value": "https://riha.eesti.ee/riha/main/kla/keelte_klassifikaator_2013/est"
@@ -6434,10 +6434,10 @@
     },
     {
         "@context": {
-            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1"
+            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1/"
         },
         "@id": "http://www.mkm.ee/teenused/Riigiportaalis_eesti.ee_X-tee_teenuste_avaldamine",
-        "@type": "PublicService",
+        "@type": "CPSV:PublicService",
         "Keel": {
             "@type": "CPSV:Language",
             "@value": "https://riha.eesti.ee/riha/main/kla/keelte_klassifikaator_2013/est"
@@ -6466,10 +6466,10 @@
     },
     {
         "@context": {
-            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1"
+            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1/"
         },
         "@id": "http://www.mkm.ee/teenused/Teavituskalender",
-        "@type": "PublicService",
+        "@type": "CPSV:PublicService",
         "Keel": {
             "@type": "CPSV:Language",
             "@value": "https://riha.eesti.ee/riha/main/kla/keelte_klassifikaator_2013/est"
@@ -6498,10 +6498,10 @@
     },
     {
         "@context": {
-            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1"
+            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1/"
         },
         "@id": "http://www.mkm.ee/teenused/Autoriseerimisteenus",
-        "@type": "PublicService",
+        "@type": "CPSV:PublicService",
         "Keel": {
             "@type": "CPSV:Language",
             "@value": "https://riha.eesti.ee/riha/main/kla/keelte_klassifikaator_2013/est"
@@ -6530,10 +6530,10 @@
     },
     {
         "@context": {
-            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1"
+            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1/"
         },
         "@id": "http://www.mkm.ee/teenused/Tööplaanide_teenus",
-        "@type": "PublicService",
+        "@type": "CPSV:PublicService",
         "Keel": {
             "@type": "CPSV:Language",
             "@value": "https://riha.eesti.ee/riha/main/kla/keelte_klassifikaator_2013/est"
@@ -6562,10 +6562,10 @@
     },
     {
         "@context": {
-            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1"
+            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1/"
         },
         "@id": "http://www.mkm.ee/teenused/Turvaintsidendist_teavitamine",
-        "@type": "PublicService",
+        "@type": "CPSV:PublicService",
         "Keel": {
             "@type": "CPSV:Language",
             "@value": "https://riha.eesti.ee/riha/main/kla/keelte_klassifikaator_2013/est"
