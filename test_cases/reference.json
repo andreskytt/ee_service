@@ -1,0 +1,12 @@
+[
+	{
+
+		"@type": "http://meta.eesti.ee/tyyp/SDF/SDFReference",
+		"@value": "https://raw.githubusercontent.com/andreskytt/ee_service/master/small_sample.json"
+	},
+	{
+		"@type": "http://meta.eesti.ee/tyyp/SDF/SDFReference",
+		"@value": "https://raw.githubusercontent.com/andreskytt/ee_service/master/competing_small_sample.json"
+	}
+]
+
