@@ -1,78 +1,56 @@
 # -*- coding: UTF-8 -*-
 
-# Import S3 SDK
-import boto
+import shelve
 import urllib2
 import json
 import logging
-import pp
 
-# Initialize the S3 connection unless already present
-def get_connection():
-	logging.debug("Connecting to S3")
-	s3 = boto.connect_s3()
-	logging.debug("Done")
-	# create the bucket if it does not exist
-	if(not s3.lookup(BUCKET_NAME)):
-		logging.debug("Creating bucket " + BUCKET_NAME)
-		s3.create_bucket(BUCKET_NAME)
-		logging.debug("Done")
-	return s3
-
-# Persist a blob to S3 based on a key
-def persist(p_key, p_content, c,bname):
-	from boto.s3.key import Key
-	
-	bucket = c.get_bucket(bname)
-	k = bucket.get_key(bname)
-	j = p_content
-
-	if k == None:
-		k = Key(bucket)
-		k.key = p_key
-	else:
-		j = json.loads(k.get_contents_as_string())
-		for c_key in p_content.keys():
-			j[c_key] = p_content[c_key]
-
+# Persist an object to shelve based on a key
+def persist(p_key, p_content, bname):
 	logging.debug("persisting " + p_key)
-	k.set_contents_from_string(j)
 
-def process(url, s3, bname):
-	jobs = []
-	js = None
+	bucket = shelve.open(bname, writeback = True) 
 
-	response = urllib2.urlopen(urllib2.Request(url))
-	logging.getLogger('boto').propagate = False 
+	# It is a new key, just persist
+	if not bucket.has_key(p_key):
+		bucket[p_key] = p_content
+	else:
+	# Otherwise, we merge
+		for c_key in p_content.keys():
+			bucket[p_key][c_key] = p_content[c_key]
 
-	logging.basicConfig(level=logging.DEBUG)
-	logging.debug("reading: " + url)
-	r = response.read()
-	j = json.loads(r.replace('\r\n', ''))
 
-	for o in j:
-		if "@type" in o.keys():
-			if o["@type"] == "http://meta.eesti.ee/tyyp/SDF/SDFReference":
-				if not js:
-					js = pp.Server()
-				jobs.append((o["@value"], js.submit(process,(o["@value"],s3,bname),(persist,),("urllib2", "boto", "logging", "json", "pp"))))
-				continue
+	bucket.close()
 
-		persist(o["@id"],json.dumps(o),s3, bname)
+def process(input_url, bname):
+	url_set = set([input_url])
 
-	for (input, job) in jobs:
-		j = job()
+	while len(url_set) > 0:
+		url = url_set.pop()
 
-	return True
+		# Read from the URL given
+		logging.debug("reading: " + url)
+		response = urllib2.urlopen(urllib2.Request(url))
+
+		r = response.read()
+		j = json.loads(r.replace('\r\n', ''))
+
+		for o in j:
+			if "@type" in o.keys():
+				# Should we find a reference to another URL, process it asynchronously
+				if o["@type"] == "http://meta.eesti.ee/tyyp/SDF/SDFReference":
+					logging.debug('Found a reference ' + o["@value"])
+					url_set.add(o["@value"])
+					continue
+
+			persist(o["@id"].encode('utf-8'),o, bname)
 
 
 BUCKET_NAME = "eeservice"
-#SEED_URL = "https://raw.githubusercontent.com/andreskytt/ee_service/master/mkm_sample.json"
 SEED_URL = "https://raw.githubusercontent.com/andreskytt/ee_service/master/reference.json"
 
 #Set up log level
 logging.basicConfig(level=logging.DEBUG)
-logging.getLogger('boto').propagate = False
 
-process(SEED_URL, get_connection(), BUCKET_NAME)
+process(SEED_URL, BUCKET_NAME)
 
