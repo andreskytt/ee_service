@@ -1,0 +1,66 @@
+[
+    {
+        "@context": {
+            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1"
+        },
+        "@id": "http://register.fin.ee/RKOAR/70000303",
+        "@type": "LegalEntity",
+        "JurID": {
+            "@type": "CPSV:LegalIdentifier",
+            "@value": "http://register.fin.ee/RKOAR/70000303"
+        },
+        "JurNimi": {
+            "@type": "CPSV:LegalName",
+            "@value": "Konkurentsiamet"
+        },
+        "Tüüp": {
+            "@type": "CPSV:CompanyType",
+            "@value": "https://riha.eesti.ee/riha/main/kla/esa_institutsionaalsete_sektorite_s_eesti_jaoks_kohandatud_klassifikaator_2010/S.13111"
+        },
+        "pakub": {
+            "@type": "CPSV:Provides",
+            "@value": [
+                "http://test.www.mkm.ee/teenused/Raudteeseaduse_tegevuslubade_taotlemine",
+                "http://test.www.mkm.ee/teenused/Elektrituruseaduse_tegevuslubade_taotlemine"
+            ]
+        }
+    },
+ {
+"@context": {
+            "CPSV": "http://joinup.ec.europa.eu/site/core_vocabularies/Core_Vocabularies_v1.1"
+        },
+        "@id": "http://test.www.mkm.ee/teenused/Raudteeseaduse_tegevuslubade_taotlemine",
+        "@type": "PublicService",
+        "Keel": {
+            "@type": "CPSV:Language",
+            "@value": "https://riha.eesti.ee/riha/main/kla/keelte_klassifikaator_2013/est"
+        },
+        "Kirjeldus": {
+            "@type": "CPSV:Description",
+            "@value": "\"Tegevusluba on vaja taotleda, kui ettevõtja soovib tegutseda raudteevaldkonnas ning osutada järgmiseid teenuseid: avaliku raudteeinfrastruktuuri majandamine; raudtee reisijatevedu; raudtee kaubavedu.\""
+        },
+        "Koduleht": {
+            "@type": "CPSV:Homepage",
+            "@value": "https://mtr.mkm.ee/"
+        },
+        "Nimi": {
+            "@type": "CPSV:Name",
+            "@value": "Raudteeseaduse tegevuslubade taotlemine"
+        },
+        "Sihtrühm": "\"Ettevõtja,\"",
+        "Teenuseosutaja": {
+            "@type": "CPSV:ProvidedBy",
+            "@value": "http://register.fin.ee/RKOAR/70000303"
+        },
+        "Tüüp": {
+            "@type": "CPSV:Type",
+            "@value": "Liitumine/Registreerimine"                                                                                                                
+        },                                                                                                                                                       
+        "Valdkond": "Raudteetransport"                                                                                                                           
+    },
+{
+	"@type":"http://meta.eesti.ee/tyyp/SDF/SDFReference",
+	"@value": "https://raw.githubusercontent.com/andreskytt/ee_service/master/mkm_sample.json"
+}                         
+]
+
