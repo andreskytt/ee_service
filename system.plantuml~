@@ -9,15 +9,13 @@ database shelve
 [CSV file] <<dataset>> as csv
 [JSON-LD file] <<dataset>> as json
 [Aggregate JSON-LD] <<dataset>> as jsonout
-[Format specification] <<configuration>> as conf
 
 skinparam component {
     backgroundColor<<dataset>> DarkKhaki
-    backgroundColor<<configuration>> Green
+    backgroundColor<<shared lib>> Green
 }
 
 extract ..> csv : use
-extract ..> conf : use
 extract ..> json : create
 
 persist ..> json : HTTP get
@@ -28,3 +26,5 @@ retrieve ..> jsonout : create
 
 UI -> jsonout : HTTP get
 @enduml
+
+
