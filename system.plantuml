@@ -1,0 +1,30 @@
+@startuml
+
+component [extract.py] as extract 
+component [persist.py] as persist  
+component [retrieve.py] as retrieve
+component [ui.html] as UI
+database shelve
+
+[CSV file] <<dataset>> as csv
+[JSON-LD file] <<dataset>> as json
+[Aggregate JSON-LD] <<dataset>> as jsonout
+
+skinparam component {
+    backgroundColor<<dataset>> DarkKhaki
+    backgroundColor<<shared lib>> Green
+}
+
+extract ..> csv : use
+extract ..> json : create
+
+persist ..> json : HTTP get
+persist -> shelve
+
+retrieve -> shelve
+retrieve ..> jsonout : create
+
+UI -> jsonout : HTTP get
+@enduml
+
+
