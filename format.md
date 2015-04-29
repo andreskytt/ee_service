@@ -10,7 +10,7 @@ An SDF file is an array of service objects. A service object is one of the follo
 
 * A legal identity identified by a CPSV type **LegalEntity** that specifies the CPSV Agent type
 * A service description identified by a CPSV type **PublicService**
-* An URL of another SDF file identified by a **http://meta.eesti.ee/tüüp/SDF/SDFReference** type 
+* An URL of another SDF file identified by a **http://meta.eesti.ee/tyyp/SDF/SDFReference** type 
 
 ## The requirements
 ----
