@@ -10,6 +10,10 @@
 {
         "@type":"http://meta.eesti.ee/tyyp/SDF/SDFReference",
         "@value": "https://raw.githubusercontent.com/andreskytt/ee_service/master/test_cases/mkm_sample.json"
+},
+{
+        "@type":"http://meta.eesti.ee/tyyp/SDF/SDFReference",
+        "@value": "http://romet.host22.com/services/ee_mnt_services.json"
 }
 
 ]
