@@ -1,7 +1,7 @@
 [
 {
         "@type":"http://meta.eesti.ee/tyyp/SDF/SDFReference",
-        "@value": "https://github.com/kyyberi/ee_service/blob/master/test_cases/sample.json"
+        "@value": "https://raw.githubusercontent.com/kyyberi/ee_service/master/test_cases/sample.json"
 },
 {
         "@type":"http://meta.eesti.ee/tyyp/SDF/SDFReference",
